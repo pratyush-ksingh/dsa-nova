@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Search ranking at Bing merges relevance scores from two sorted indexes and finds the Kth-ranked result using binary search without full merge. Order book matching engines at NASDAQ find the Kth best bid across two sorted order streams for efficient price discovery.
 ## Interview Tips
 - TODO

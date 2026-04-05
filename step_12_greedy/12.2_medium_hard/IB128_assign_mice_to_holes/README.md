@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Amazon's warehouse robotics (Kiva robots) solve an assignment problem where each robot must reach a storage pod, and the goal is to minimize the maximum travel time so all robots finish as fast as possible. Sorting robots and pods by position and greedily pairing them (as in assign-mice-to-holes) gives the optimal min-max assignment in O(n log n).
 ## Interview Tips
 - TODO

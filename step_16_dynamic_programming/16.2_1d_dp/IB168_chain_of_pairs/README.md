@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Task scheduling systems at Intel and ARM for processor pipelines find the longest chain of compatible operations where each task's end time is before the next task's start time. This longest-chain-of-pairs DP (a variant of longest increasing subsequence) maximizes CPU pipeline utilization by chaining the most non-overlapping operations into a single execution sequence.
 ## Interview Tips
 - TODO

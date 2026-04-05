@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Build systems like Make, Bazel (Google), and Gradle detect circular dependencies in directed dependency graphs before attempting compilation. If module A depends on B, B on C, and C on A, the build would loop forever. DFS-based cycle detection in directed graphs catches these issues early and reports the cycle to the developer.
 ## Interview Tips
 - TODO

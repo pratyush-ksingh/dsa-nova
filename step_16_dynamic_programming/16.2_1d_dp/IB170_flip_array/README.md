@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Portfolio optimization tools at Goldman Sachs and BlackRock solve the flip-array problem (a variant of subset-sum) to find the minimum number of assets to short-sell (flip the sign) such that the total portfolio value is minimized but non-negative. This DP approach helps construct minimum-variance hedging strategies by selecting the fewest positions to reverse.
 ## Interview Tips
 - TODO

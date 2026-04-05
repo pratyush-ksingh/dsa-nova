@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Robinhood's fractional share system uses subset-sum-II to find all distinct sets of fractional holdings that total a target portfolio value during rebalancing. Since multiple stocks may have the same fractional value, the algorithm skips duplicate subsets to efficiently enumerate only unique portfolio compositions that achieve the desired allocation.
 
 ## Interview Tips
 - TODO

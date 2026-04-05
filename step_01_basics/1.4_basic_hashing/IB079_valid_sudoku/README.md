@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Constraint-satisfaction solvers used in Google OR-Tools validate partial board states using hash sets for rows, columns, and sub-grids. Puzzle game platforms like the New York Times Games app perform real-time validation as users fill in cells, using exactly this row/column/box duplicate-check approach.
 ## Interview Tips
 - TODO

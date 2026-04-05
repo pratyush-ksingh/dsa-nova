@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database systems like PostgreSQL use bulk-loading techniques to convert sorted data streams (like sorted linked lists from merge operations) into balanced BST index structures. This avoids the overhead of individual insertions and produces a perfectly balanced B-tree in O(n) time, which is critical during index rebuilds on tables with millions of rows.
 ## Interview Tips
 - TODO

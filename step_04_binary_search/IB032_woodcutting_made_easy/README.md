@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Lumber supply chain systems at Weyerhaeuser use binary search on saw blade height to determine the optimal cut level that yields exactly the required wood volume. Paper manufacturing at International Paper uses the same approach to set roller pressure that produces the target paper thickness from pulp batches.
 ## Interview Tips
 - TODO

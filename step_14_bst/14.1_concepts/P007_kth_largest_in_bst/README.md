@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Leaderboard systems at gaming companies like Riot Games (League of Legends) and Epic Games (Fortnite) use augmented BSTs to answer 'who is the Kth highest ranked player' queries in O(log n). The reverse inorder traversal approach is used for real-time leaderboard pages, where the system must efficiently fetch the Kth top scorer among millions of players.
 ## Interview Tips
 - TODO

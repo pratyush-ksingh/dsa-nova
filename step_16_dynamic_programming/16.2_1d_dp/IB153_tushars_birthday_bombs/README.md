@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+E-commerce optimization engines at Amazon determine the maximum number of items that can be purchased within a budget, selecting from items with different costs. This unbounded knapsack variant is used in promotional pricing: given a marketing budget, maximize the number of customer reward redemptions by greedily choosing the cheapest effective option first with DP verification.
 ## Interview Tips
 - TODO

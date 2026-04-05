@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cryptographic libraries in OpenSSL multiply extremely large prime numbers represented as strings for RSA key generation, where native integer types cannot hold the values. Financial systems at Bloomberg handle arbitrary-precision currency multiplication for high-value bond calculations where floating-point errors are unacceptable.
 ## Interview Tips
 - TODO

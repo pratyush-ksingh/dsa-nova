@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Tesla's Autopilot vision system uses the maximal-rectangle algorithm to find the largest obstacle-free rectangular region in a binary occupancy grid derived from camera feeds. By treating each row as a histogram and applying the largest-rectangle algorithm, the system identifies safe driving corridors in O(rows x cols) time for real-time path planning.
 
 ## Interview Tips
 - TODO

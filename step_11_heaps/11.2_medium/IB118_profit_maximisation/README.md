@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Online advertising platforms like Google Ads use greedy heap-based allocation to maximize revenue across ad slots. Each slot has diminishing returns, so the system repeatedly assigns the highest-value remaining slot to the next advertiser, using a max-heap to track slot values efficiently and greedily extract maximum total profit.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Plagiarism detection tools at Turnitin use scramble-string-like DP to determine whether one text segment could be a recursive rearrangement of another. By recursively checking if any partition and swap could transform one string into the other, the system identifies obfuscated copying where sentences have been recursively shuffled to evade simple string matching.
 ## Interview Tips
 - TODO

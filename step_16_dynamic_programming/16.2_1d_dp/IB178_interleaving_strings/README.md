@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Network packet reassembly modules in TCP/IP stacks (like those in the Linux kernel) determine whether an observed byte stream could be a valid interleaving of two independent data streams. The interleaving-strings DP verifies stream integrity when multiplexed connections share a channel, as used in HTTP/2 stream multiplexing implementations at Cloudflare and NGINX.
 ## Interview Tips
 - TODO

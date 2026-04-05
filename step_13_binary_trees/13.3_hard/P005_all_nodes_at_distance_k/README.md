@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Contact tracing systems built during COVID-19 by Apple and Google used graph traversal to find all people within K degrees of contact from an infected individual. The 'all nodes at distance K' algorithm on the contact tree identified everyone who needed notification, with K representing the number of transmission hops health authorities wanted to trace.
 ## Interview Tips
 - TODO

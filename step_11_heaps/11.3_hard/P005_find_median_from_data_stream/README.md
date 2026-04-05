@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Financial trading platforms at Bloomberg and Citadel compute the rolling median stock price in real time as trades stream in. They use the two-heap approach (max-heap for the lower half, min-heap for the upper half) to maintain the median in O(log n) per update, enabling instant percentile-based alerting for anomalous price movements.
 ## Interview Tips
 - TODO

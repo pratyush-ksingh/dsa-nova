@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Financial analysis tools at Bloomberg detect longest arithmetic progressions in stock price sequences to identify consistent upward/downward trends. Quant trading firms use this DP to spot price patterns where values increase by a constant amount over consecutive periods, which may signal algorithmic trading activity or steady institutional accumulation.
 ## Interview Tips
 - TODO

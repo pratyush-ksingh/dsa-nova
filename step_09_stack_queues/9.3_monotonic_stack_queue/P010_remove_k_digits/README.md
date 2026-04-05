@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Bloomberg Terminal's bond pricing display uses the remove-k-digits greedy algorithm to round large price numbers to their smallest possible representation when screen space is limited. By removing k digits using a monotonic stack, the algorithm ensures the displayed number is the smallest possible, providing traders with conservative price estimates.
 
 ## Interview Tips
 - TODO

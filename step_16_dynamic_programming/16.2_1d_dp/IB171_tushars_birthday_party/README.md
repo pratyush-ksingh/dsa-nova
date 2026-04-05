@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Catering management software used by companies like Sodexo and Aramark computes the minimum cost to satisfy each guest's appetite using a menu of dishes with different costs and portion sizes. This per-person unbounded knapsack DP optimizes food ordering budgets for corporate events, ensuring every attendee is served at minimum total cost.
 ## Interview Tips
 - TODO

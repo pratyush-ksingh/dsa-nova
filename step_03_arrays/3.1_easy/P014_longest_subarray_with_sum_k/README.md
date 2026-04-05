@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Network bandwidth monitoring tools at Cisco identify the longest interval where total packet throughput equals a target rate using prefix-sum hash maps. E-commerce platforms like Shopify find the longest sales window where total revenue matches a forecast target to validate demand predictions.
 ## Interview Tips
 - TODO

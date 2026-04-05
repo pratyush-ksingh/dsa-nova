@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database indexing libraries count the number of insertion orderings that produce the same BST structure to estimate index construction entropy. This combinatorial DP is used by CockroachDB and TiDB to analyze whether different data loading orders would produce equivalent index structures, informing decisions about parallel bulk-insert strategies.
 ## Interview Tips
 - TODO

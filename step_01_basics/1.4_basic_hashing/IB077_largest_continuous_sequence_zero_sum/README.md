@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Financial reconciliation systems at companies like Stripe use this technique to detect balanced transaction windows where credits and debits cancel out. Network monitoring tools apply the same prefix-sum approach to identify time intervals where packet loss and recovery are perfectly balanced.
 ## Interview Tips
 - TODO

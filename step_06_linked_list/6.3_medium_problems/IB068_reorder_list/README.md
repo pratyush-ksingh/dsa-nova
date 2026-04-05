@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Amazon's warehouse picking optimization reorders item lists so that a picker alternates between the farthest and nearest shelf locations. The reorder-list algorithm (interleave front half with reversed back half) minimizes total travel distance by ensuring the picker never makes two consecutive trips to the same end of the warehouse, reducing fulfillment time by up to 30%.
 
 ## Interview Tips
 - TODO

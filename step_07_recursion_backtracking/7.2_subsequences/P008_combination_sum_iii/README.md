@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Uber's driver matching system uses combination-sum-III logic to select exactly k drivers from a pool whose combined ETA sums to a target value. Each driver (1-9 rating tiers) can be selected at most once, and the algorithm finds all groups of exactly k drivers that collectively meet the estimated time threshold for a ride-sharing pickup.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Wolfram Alpha's integer factorization engine uses sieve-based prime factorization (SPF sieve) to instantly factor numbers up to 10^7 when users query 'factor 123456.' The smallest-prime-factor sieve precomputes the answer for every number in the range, allowing O(log n) factorization by repeatedly dividing by the stored smallest prime factor.
 
 ## Interview Tips
 - TODO

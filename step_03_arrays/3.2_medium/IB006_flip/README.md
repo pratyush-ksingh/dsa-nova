@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Image processing in OpenCV uses flip-subarray logic to find the optimal region to invert pixel values for maximum contrast enhancement. Ad optimization systems at Meta find the best contiguous block of ad slots to flip from inactive to active to maximize total click-through rate.
 ## Interview Tips
 - TODO

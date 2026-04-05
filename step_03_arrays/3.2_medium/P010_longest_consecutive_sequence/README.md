@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Social graph analysis at LinkedIn detects the longest chain of consecutively-IDed connections for identifying bot clusters. Genomics pipelines at 23andMe find the longest run of consecutive chromosome positions with mutations, using hash-set lookups to achieve linear time on billions of base pairs.
 ## Interview Tips
 - TODO

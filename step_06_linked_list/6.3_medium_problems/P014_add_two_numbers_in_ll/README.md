@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Python's built-in arbitrary-precision integers (used by libraries like NumPy and SymPy) internally use a linked chain of digit groups to represent numbers exceeding machine word size. The add-two-numbers-in-linked-list algorithm is essentially how carry-propagation works in CPython's longintrepr.c when adding two arbitrary-precision integers.
 
 ## Interview Tips
 - TODO

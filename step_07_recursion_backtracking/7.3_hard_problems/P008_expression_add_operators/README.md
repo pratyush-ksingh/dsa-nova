@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Wolfram Mathematica's equation solver uses the expression-add-operators backtracking approach to explore all possible ways to insert arithmetic operators between terms and evaluate whether any arrangement yields a target value. This powers Mathematica's 'FindFormula' feature, which discovers mathematical expressions fitting observed data points.
 
 ## Interview Tips
 - TODO

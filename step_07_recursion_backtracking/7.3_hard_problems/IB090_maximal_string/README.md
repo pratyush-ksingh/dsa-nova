@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Bloomberg Terminal's ticker symbol search uses the maximal-string algorithm to find the lexicographically largest stock ticker achievable by swapping at most k characters. This helps traders quickly find the 'next' ticker symbol alphabetically when scanning through large portfolios sorted by symbol name.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Python's eval() function and the Java compiler's constant folding optimization both use stack-based postfix expression evaluation to compute arithmetic expressions at compile time. The evaluate-expression algorithm pushes operands onto a stack and applies operators by popping operands, enabling O(n) expression evaluation that powers calculator apps, spreadsheet formulas in Google Sheets, and programming language interpreters.
 
 ## Interview Tips
 - TODO

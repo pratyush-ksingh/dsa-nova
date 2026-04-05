@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Scheduling algorithms in Google Calendar detect the largest gap between consecutive meetings using bucket sort to suggest optimal free slots. Warehouse logistics at Amazon use pigeonhole-based gap detection on sorted shipment timestamps to identify the longest idle period on a conveyor belt.
 ## Interview Tips
 - TODO

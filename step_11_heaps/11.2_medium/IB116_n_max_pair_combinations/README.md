@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Recommendation engines at Netflix and Spotify pair user preferences with content features to generate candidate matches. Finding the N maximum pair combinations efficiently using heaps allows these systems to surface the best user-content pairings from millions of possibilities without exhaustively computing every combination.
 ## Interview Tips
 - TODO

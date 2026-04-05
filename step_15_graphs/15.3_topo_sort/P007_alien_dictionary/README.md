@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Programming language designers use topological sort on character ordering constraints (like the alien dictionary problem) to infer Unicode collation rules from example sorted data. The ICU library (used by Chrome, Java, and macOS) builds locale-specific sorting rules by deriving character precedence from sample sorted word lists.
 ## Interview Tips
 - TODO

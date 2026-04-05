@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Airline crew scheduling systems like Jeppesen (owned by Boeing) use Sudoku-solver-style constraint propagation and backtracking to assign pilots and flight attendants to routes. Each crew member, time slot, and aircraft is a constraint dimension, and the algorithm fills the schedule ensuring no conflicts -- exactly like placing digits 1-9 without repeats in rows, columns, and blocks.
 
 ## Interview Tips
 - TODO

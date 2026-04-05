@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+OpenSSL and BoringSSL (used by Chrome) use the Sieve of Eratosthenes to generate small prime lookup tables that accelerate primality testing during RSA key generation. Before running expensive Miller-Rabin tests on large candidate primes, the library checks divisibility against sieved primes up to 10,000, eliminating over 90% of composite candidates instantly.
 
 ## Interview Tips
 - TODO

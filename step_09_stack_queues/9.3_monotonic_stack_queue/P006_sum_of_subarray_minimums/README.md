@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Datadog's monitoring platform uses the sum-of-subarray-minimums algorithm to compute aggregate worst-case latency metrics across all time windows. For a series of response-time measurements, summing the minimum over every contiguous subarray gives a comprehensive view of baseline performance, helping SRE teams set meaningful SLO thresholds.
 
 ## Interview Tips
 - TODO

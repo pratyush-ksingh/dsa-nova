@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+YouTube's trending algorithm uses a sliding-window approach to count video engagement windows where the peak viewership appears at least k times. By counting subarrays where the maximum element occurs k or more times, the algorithm identifies sustained viral periods rather than one-time spikes, which determines trending video rankings.
 
 ## Interview Tips
 - TODO

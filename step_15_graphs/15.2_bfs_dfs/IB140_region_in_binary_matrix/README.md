@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Satellite imagery analysis tools at NASA and Planet Labs use connected-component BFS on binary matrices to measure the largest contiguous region of a specific land type (forest, water, urban). The largest-region algorithm determines the size of the biggest connected area, which is critical for deforestation monitoring and urban sprawl analysis.
 ## Interview Tips
 - TODO

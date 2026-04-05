@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Search engine ranking systems at Google perform limited re-ranking swaps on initial retrieval results to boost the most relevant documents to the top. With a budget of K swaps, the greedy strategy of always promoting the largest unseen element to the front mirrors how re-rankers make the highest-impact adjustments first within a constrained number of operations.
 ## Interview Tips
 - TODO

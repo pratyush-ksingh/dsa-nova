@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+IoT devices with limited RAM, such as those running Amazon FreeRTOS, use Morris preorder traversal to process hierarchical sensor data trees without stack overhead. Medical devices like pacemakers that maintain decision trees for rhythm classification use this O(1)-space traversal to avoid any risk of stack overflow in safety-critical firmware.
 ## Interview Tips
 - TODO

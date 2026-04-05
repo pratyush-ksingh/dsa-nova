@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+AWS Lambda's resource allocator uses subset-sum enumeration to determine all possible memory allocation configurations that fit within a host machine's available RAM. By generating all achievable sums from the set of requested function memory sizes, the scheduler quickly identifies which combinations of Lambda functions can be co-located on a single host.
 
 ## Interview Tips
 - TODO

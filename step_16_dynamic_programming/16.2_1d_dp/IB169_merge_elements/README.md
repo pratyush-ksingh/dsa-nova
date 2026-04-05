@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database query optimizers at Oracle and Microsoft SQL Server determine the optimal order to merge sorted runs during external sort operations. The merge-elements DP (similar to matrix chain multiplication) minimizes the total merge cost by choosing the best pairwise merge sequence, directly applicable to minimizing disk I/O during large-scale sort-merge joins.
 ## Interview Tips
 - TODO

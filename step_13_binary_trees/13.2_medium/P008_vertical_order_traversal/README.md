@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Organizational chart tools at Microsoft (Visio, Teams org charts) use vertical order traversal to group employees by their column position in the hierarchy diagram. This ensures that people at the same horizontal offset are listed together, enabling clean column-aligned rendering of complex reporting structures with multiple branches.
 ## Interview Tips
 - TODO

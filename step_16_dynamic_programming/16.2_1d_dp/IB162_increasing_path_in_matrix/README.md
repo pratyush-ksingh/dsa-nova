@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Terrain analysis tools at the US Geological Survey (USGS) and hiking apps like AllTrails compute the longest strictly increasing elevation path in a topographic grid. This DP with memoization identifies the longest possible uphill route, used for watershed analysis (water flow modeling) and trail difficulty rating in outdoor recreation platforms.
 ## Interview Tips
 - TODO

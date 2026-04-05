@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Autocomplete systems at Google Search use minimum window substring logic to find the smallest text snippet containing all query keywords for search result highlighting. Plagiarism detection tools like Turnitin find the shortest passage in a document that contains all key phrases from a reference text.
 ## Interview Tips
 - TODO

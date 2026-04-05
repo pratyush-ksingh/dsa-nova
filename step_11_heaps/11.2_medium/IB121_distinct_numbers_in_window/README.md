@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Network monitoring tools like Wireshark and Datadog track the number of distinct IP addresses seen in a sliding time window to detect DDoS attacks. A sudden spike in distinct IPs within a window signals an anomaly. This sliding-window distinct-count pattern is also used by Redis for its HyperLogLog-based cardinality estimation.
 ## Interview Tips
 - TODO

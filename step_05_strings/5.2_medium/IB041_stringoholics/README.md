@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Animation loop systems at Pixar calculate the LCM of rotation periods to determine when all animated elements simultaneously return to their starting positions. Music production software like Ableton Live uses LCM of beat cycle lengths to find the shortest loop where all instrument patterns realign.
 ## Interview Tips
 - TODO

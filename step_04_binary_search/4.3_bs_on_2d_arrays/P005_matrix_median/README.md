@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Data warehouse systems at Snowflake compute the median value across row-sorted partitions using binary search on the answer space, avoiding full data materialization. Sensor array processing in autonomous vehicles at Waymo finds the median distance reading across sorted LiDAR scan rows for obstacle detection.
 ## Interview Tips
 - TODO

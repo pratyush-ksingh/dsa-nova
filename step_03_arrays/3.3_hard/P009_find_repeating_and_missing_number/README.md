@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Data integrity checks in distributed databases like CockroachDB detect duplicate and missing sequence numbers in transaction logs to ensure ACID compliance. Inventory management systems at Walmart use mathematical sum/XOR techniques to find miscounted and missing product SKUs during warehouse audits.
 ## Interview Tips
 - TODO

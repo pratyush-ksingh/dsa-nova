@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Android's Glide image loading library uses LFU (Least Frequently Used) cache eviction to manage its in-memory bitmap cache. Images that are displayed frequently (like a user's profile picture) stay cached even if not accessed recently, while rarely-viewed images are evicted first. The O(1) LFU design with frequency buckets keeps scrolling smooth on mobile devices.
 
 ## Interview Tips
 - TODO

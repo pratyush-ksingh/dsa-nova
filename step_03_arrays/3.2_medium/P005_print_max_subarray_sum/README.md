@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Stock trading platforms like Bloomberg Terminal use Kadane's algorithm to find the maximum profit window in a stock's daily price-change history. Streaming analytics at Netflix identify peak viewer engagement periods by finding the maximum contiguous sum of viewership deltas across time slots.
 ## Interview Tips
 - TODO

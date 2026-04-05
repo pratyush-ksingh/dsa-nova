@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Tabletop gaming platforms like Roll20 and D&D Beyond compute probability distributions for dice roll outcomes. The dice-throw DP counts the number of ways to achieve a target sum with N dice of M faces, powering the probability calculators that help game masters balance encounter difficulty and players evaluate the odds of their actions succeeding.
 ## Interview Tips
 - TODO

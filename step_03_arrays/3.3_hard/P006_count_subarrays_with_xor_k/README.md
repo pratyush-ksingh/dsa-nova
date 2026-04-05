@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Network intrusion detection systems at Palo Alto Networks count packet sequences with a specific XOR signature to identify malware communication patterns. Error-correcting code decoders in 5G modems count bit-stream subarrays with target XOR values to locate and fix transmission errors.
 ## Interview Tips
 - TODO

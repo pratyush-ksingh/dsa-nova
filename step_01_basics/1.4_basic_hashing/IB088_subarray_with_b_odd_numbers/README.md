@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Quality assurance systems at manufacturing companies like Siemens count production windows containing exactly K defective items to identify process stability. Network monitoring at Cloudflare uses prefix-count techniques to find time windows with exactly K anomalous requests for DDoS pattern detection.
 ## Interview Tips
 - TODO

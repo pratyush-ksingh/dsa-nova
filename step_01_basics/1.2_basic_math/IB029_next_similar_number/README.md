@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Mobile phone contact apps like Google Contacts use next permutation logic to suggest alternative phone numbers or usernames that are lexicographically close to a taken one. The same algorithm powers auto-complete suggestions in search engines where the system needs to find the next lexicographic match efficiently.
 ## Interview Tips
 - TODO

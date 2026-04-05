@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+HP and Texas Instruments scientific calculators convert between prefix (Polish) and postfix (Reverse Polish) notation internally when switching between algebraic and RPN input modes. The stack-based conversion algorithm enables real-time expression translation so that users can enter expressions in their preferred notation while the calculator evaluates in postfix.
 
 ## Interview Tips
 - TODO

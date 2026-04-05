@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Code analysis tools at JetBrains (IntelliJ, PyCharm) analyze abstract syntax trees to find the largest well-structured subtree that satisfies ordering constraints. This identifies the largest refactorable code block. Similarly, MongoDB's query planner identifies the largest BST-like substructure in its index tree to determine the most efficient index scan range.
 ## Interview Tips
 - TODO

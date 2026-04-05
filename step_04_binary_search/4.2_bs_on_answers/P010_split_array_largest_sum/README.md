@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Video streaming at YouTube splits video segments across CDN servers by minimizing the maximum chunk size any single server must handle. Parallel build systems like Bazel partition compilation tasks across CPU cores using binary search to minimize the maximum build time on any core.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Quantitative trading systems at Citadel detect reverse pairs in price sequences where an earlier price is more than double a later price, signaling potential short opportunities. Anomaly detection in satellite telemetry at NASA finds reverse-pair sensor readings indicating instrument degradation.
 ## Interview Tips
 - TODO

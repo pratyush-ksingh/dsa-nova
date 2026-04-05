@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Amazon's warehouse shelf labeling system uses the kth-permutation-sequence algorithm to directly compute the label for shelf position k without generating all prior permutations. With millions of shelf locations, computing the factorial number system representation gives O(n^2) direct access to any permutation, enabling efficient barcode generation for warehouse management.
 
 ## Interview Tips
 - TODO

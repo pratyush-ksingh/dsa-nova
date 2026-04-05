@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cache eviction systems in Redis use increment-and-propagate logic to maintain frequency counters for LFU caching. Rate-limiting middleware in API gateways like Kong increment request counters and propagate threshold changes to efficiently enforce usage limits.
 ## Interview Tips
 - TODO

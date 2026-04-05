@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Game theory engines in AI research at DeepMind model competitive two-player games using the coins-in-a-line DP. This minimax approach determines optimal strategy when two players alternate picks from the ends of a value sequence. Auction platforms like eBay use similar game-theoretic DP to model bidding strategies and predict optimal bidder behavior.
 ## Interview Tips
 - TODO

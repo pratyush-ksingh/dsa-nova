@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+University enrollment systems at platforms like Coursera and edX use topological sort with cycle detection to validate whether a student's course plan is feasible. If prerequisite dependencies form a cycle, no valid ordering exists and the system alerts the student. Package managers like npm and pip use the same algorithm to detect circular dependencies.
 ## Interview Tips
 - TODO

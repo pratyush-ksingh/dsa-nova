@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Spotify's streaming queue uses insertion-sort-style logic when a user drags and drops songs to reorder their play queue. Because the queue is a linked structure (songs are nodes with next pointers), inserting a moved song into its correct position is O(1) pointer manipulation after finding the right spot, making insertion sort on linked lists efficient for nearly-sorted, small playlists.
 
 ## Interview Tips
 - TODO

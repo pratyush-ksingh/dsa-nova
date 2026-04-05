@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Map coloring algorithms used by Google Maps and ArcGIS determine how many valid ways exist to color adjacent regions so no two neighbors share a color. The 3xN board coloring DP generalizes to grid-based territory coloring used in cellular network frequency allocation at Verizon and T-Mobile, where adjacent cells must use different frequencies to avoid interference.
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Java's garbage collector uses Floyd's cycle detection (the same tortoise-and-hare algorithm) to identify circular references in the object graph during mark-and-sweep collection. If a cycle is detected among objects, the GC knows those objects reference each other but are unreachable from the root set, and can safely reclaim their memory.
 
 ## Interview Tips
 - TODO

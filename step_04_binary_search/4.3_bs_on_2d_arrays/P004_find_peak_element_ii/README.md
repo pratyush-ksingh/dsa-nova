@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Terrain analysis in Google Earth identifies mountain peaks in elevation grid data using binary search on columns to find local maxima efficiently. Heat map analysis in thermal imaging at FLIR Systems locates hotspot peaks in 2D temperature grids for industrial equipment inspection.
 ## Interview Tips
 - TODO

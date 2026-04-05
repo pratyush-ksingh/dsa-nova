@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Compiler designers at LLVM and GCC need to determine whether an abstract syntax tree can be uniquely reconstructed from partial traversal information. The rule that inorder plus one other traversal uniquely determines a binary tree is fundamental to debugger tools that reconstruct execution trees from limited trace data captured during program profiling.
 ## Interview Tips
 - TODO

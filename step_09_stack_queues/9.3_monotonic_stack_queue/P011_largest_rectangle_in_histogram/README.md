@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Google Earth's terrain analysis uses the largest-rectangle-in-histogram algorithm to find the maximum flat building area on sloped land parcels. Urban planners query elevation histogram profiles of land plots, and the monotonic stack algorithm efficiently finds the largest rectangular foundation that can be placed without excavation, directly informing zoning decisions.
 
 ## Interview Tips
 - TODO

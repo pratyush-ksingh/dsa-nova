@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Linux's TCP/IP stack in the kernel uses k-group reversal logic when reordering out-of-sequence network packets in the receive buffer. When packets arrive in groups of k that are internally reversed (due to multipath routing), the kernel reverses each group to reconstruct the original byte stream before passing data to the application layer.
 
 ## Interview Tips
 - TODO

@@ -66,6 +66,7 @@ PATH_TAGS = {
     "3.2_medium": ["arrays"],
     "3.3_hard": ["arrays"],
     # Step 4 - Binary Search
+    "step_04_binary_search": ["binary-search"],
     "4.1_bs_on_1d": ["binary-search", "arrays"],
     "4.2_bs_on_answers": ["binary-search"],
     "4.3_bs_on_2d": ["binary-search", "arrays"],

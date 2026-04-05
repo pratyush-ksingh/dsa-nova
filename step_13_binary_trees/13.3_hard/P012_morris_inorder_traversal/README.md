@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Embedded systems with severe memory constraints (like ECU firmware in Tesla's autopilot) use Morris traversal to iterate over binary search tree indices without allocating a stack or recursion frames. The O(1) space guarantee is critical in real-time automotive systems where heap allocation during tree traversal could cause unpredictable pauses.
 ## Interview Tips
 - TODO

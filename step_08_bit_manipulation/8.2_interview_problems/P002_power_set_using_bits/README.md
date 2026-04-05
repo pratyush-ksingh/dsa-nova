@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Netflix's A/B testing framework uses bitmask-based power set generation to enumerate all possible feature flag combinations when planning multivariate experiments. Each feature flag is a bit, and iterating from 0 to 2^n-1 generates every subset of flags, allowing Netflix to systematically test all 2^n combinations of UI changes to find the optimal user experience.
 
 ## Interview Tips
 - TODO

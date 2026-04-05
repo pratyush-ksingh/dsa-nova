@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database query optimizers in Oracle use precomputed divisor-count arrays and binary search to answer range-maximum queries on factor-richness scores. Product catalog systems at eBay precompute item popularity scores and use sorted lookups to efficiently answer 'find the Kth most popular item in a category' queries.
 ## Interview Tips
 - TODO

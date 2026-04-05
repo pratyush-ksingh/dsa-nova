@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Stock trading platforms like Robinhood identify perfect peak days where a stock price is greater than all previous prices and less than all future prices, signaling ideal sell points. Sensor calibration systems in IoT find perfect peak readings that confirm a device has reached stable maximum output.
 ## Interview Tips
 - TODO

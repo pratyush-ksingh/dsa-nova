@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Auto-complete and input validation systems at banks like Chase and Bank of America use the stepping-numbers pattern to generate valid account numbers or PINs where adjacent digits differ by exactly one. BFS-based enumeration efficiently generates all valid numbers in a range, which is also used in fraud detection to identify suspicious sequential-digit patterns.
 ## Interview Tips
 - TODO

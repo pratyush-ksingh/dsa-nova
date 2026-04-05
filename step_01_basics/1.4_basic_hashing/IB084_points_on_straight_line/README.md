@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Computer vision systems at Tesla Autopilot detect lane markings by finding the maximum set of collinear edge points using slope-based hashing. Geographic Information Systems like Google Earth identify road segments by grouping GPS coordinates that fall on the same straight line.
 ## Interview Tips
 - TODO

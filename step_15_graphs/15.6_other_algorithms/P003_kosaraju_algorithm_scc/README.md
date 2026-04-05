@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Web crawlers at Google use Kosaraju's algorithm to find strongly connected components in the web graph. Pages within an SCC can all reach each other via hyperlinks, forming a tightly-knit community. This decomposition powers Google's understanding of web structure, helps detect link farms (spam networks), and is used by compilers like LLVM to identify loops in control flow graphs.
 ## Interview Tips
 - TODO

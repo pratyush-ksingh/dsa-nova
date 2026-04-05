@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Developer tools like Chrome DevTools and Postman pretty-print raw JSON API responses with proper indentation for human readability. Logging systems at Datadog format nested JSON configuration files with consistent indentation to make debugging infrastructure-as-code templates manageable.
 ## Interview Tips
 - TODO

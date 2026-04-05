@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+The game engine behind Google DeepMind's AlphaGo uses the capture-regions algorithm to determine which groups of stones are surrounded and should be captured in the game of Go. Regions not connected to the border (liberty) are captured. Geographic mapping tools also use this to identify landlocked territories enclosed by borders.
 ## Interview Tips
 - TODO

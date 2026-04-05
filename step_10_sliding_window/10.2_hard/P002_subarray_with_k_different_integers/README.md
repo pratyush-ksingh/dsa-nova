@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Spotify's music recommendation engine uses the subarrays-with-k-distinct algorithm to analyze listening sessions. A session is a contiguous subarray of played tracks, and Spotify counts sessions containing exactly k distinct genres to understand user diversity preferences, using the at-most-k minus at-most-(k-1) sliding window technique for O(n) computation.
 
 ## Interview Tips
 - TODO

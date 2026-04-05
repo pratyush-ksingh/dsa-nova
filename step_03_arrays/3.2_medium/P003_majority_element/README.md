@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Election vote-counting systems use Boyer-Moore majority voting to determine if a candidate has more than half the votes in a single pass through ballot data. Content moderation at YouTube uses the same algorithm to detect if a single category dominates a flagged-content queue, triggering automated review escalation.
 ## Interview Tips
 - TODO

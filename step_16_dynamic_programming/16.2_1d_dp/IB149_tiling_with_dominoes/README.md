@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+VLSI chip design tools at Intel and TSMC use tiling algorithms to fill rectangular circuit board regions with standard-sized transistor blocks. The domino tiling DP counts the number of valid placements, which helps engineers evaluate layout density and optimize chip area utilization during the physical design phase of processor manufacturing.
 ## Interview Tips
 - TODO

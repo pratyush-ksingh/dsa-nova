@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Streaming analytics platforms like Apache Flink find the longest time window where cumulative user engagement (clicks, views) equals a target threshold. Mobile health apps like Fitbit identify the longest continuous activity period where calorie burn matches a user-defined goal using sliding window techniques.
 ## Interview Tips
 - TODO

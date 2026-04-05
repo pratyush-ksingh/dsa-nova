@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Smart home systems like Philips Hue process a sequence of light switch toggles to determine the final state of a room's lights. The greedy flip-counting approach from this problem mirrors how home automation controllers track cumulative toggle parity to decide whether each bulb ends up on or off after a sequence of scene changes.
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+FedEx's package loading system uses combination-sum-II logic to select a subset of packages (each used at most once) whose total weight exactly fills a truck's remaining capacity. The algorithm avoids duplicate combinations when multiple packages have the same weight, ensuring each distinct loading arrangement is evaluated only once for optimal space utilization.
 
 ## Interview Tips
 - TODO

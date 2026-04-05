@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Network routers in Cisco's IOS use pairwise byte-swapping when converting between big-endian and little-endian packet headers. The swap-nodes-in-pairs pattern directly models this: adjacent bytes (nodes) in the header buffer are swapped without copying the entire buffer, achieving in-place endianness conversion for high-throughput packet forwarding.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Stripe's payment processing system represents transaction amounts as linked lists of digits for arbitrary-precision arithmetic when handling micro-transactions in cryptocurrencies. Adding one to a linked-list number is the fundamental increment operation used when generating sequential invoice IDs that can exceed 64-bit integer limits.
 
 ## Interview Tips
 - TODO

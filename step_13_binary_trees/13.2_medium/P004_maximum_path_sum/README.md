@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Social network analysis tools at LinkedIn compute the strongest connection path between two users. Each edge has an influence score, and the maximum path sum algorithm finds the most influential chain of connections. Neural network compilers at NVIDIA use max-path-sum computations on computation graphs to identify critical paths that determine overall inference latency.
 ## Interview Tips
 - TODO

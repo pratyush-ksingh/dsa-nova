@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Military simulation software used by defense contractors like Lockheed Martin models battlefield grids where each cell has a strategic value. The kingdom war DP finds the submatrix with maximum sum in the bottom-right corner, identifying the optimal region to defend. Similar submatrix-sum optimizations are used in satellite image analysis for identifying high-value target areas.
 ## Interview Tips
 - TODO

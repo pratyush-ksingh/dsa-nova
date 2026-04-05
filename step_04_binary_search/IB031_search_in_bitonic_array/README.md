@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Performance monitoring at Datadog searches through bitonic response-time curves (rising during ramp-up, falling during cooldown) to find specific latency thresholds. Stock intraday analysis tools search bitonic price curves to locate exact price points using modified binary search without scanning the entire trading session.
 ## Interview Tips
 - TODO

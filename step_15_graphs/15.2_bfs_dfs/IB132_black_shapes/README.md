@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Medical imaging software at Siemens Healthineers and GE Healthcare uses connected component analysis (flood fill / BFS) on MRI and X-ray images to count and measure distinct dark regions (tumors, lesions). The black-shapes counting algorithm is exactly how radiologists' tools segment and quantify anomalies in binary-thresholded medical scans.
 ## Interview Tips
 - TODO

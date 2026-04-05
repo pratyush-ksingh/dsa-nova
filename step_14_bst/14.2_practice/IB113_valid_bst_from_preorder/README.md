@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Version control systems like Git store commit history in a tree structure. When receiving a packed stream of commits during 'git fetch', the system validates that the sequence forms a valid BST to detect corruption. Similarly, XML/JSON parsers validate that nested tag sequences could form valid document trees using stack-based BST validation.
 ## Interview Tips
 - TODO

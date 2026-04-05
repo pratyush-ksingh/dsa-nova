@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database query engines in MySQL perform UNION operations on sorted index scans using the two-pointer merge technique. Git's merge algorithm computes the union of sorted change-sets from two branches to produce a combined diff without duplicates.
 ## Interview Tips
 - TODO

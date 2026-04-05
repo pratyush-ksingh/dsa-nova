@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database query optimizers at Oracle and PostgreSQL reconstruct execution plan trees from serialized representations. The inorder+preorder reconstruction algorithm is used in query plan caching: when a plan is serialized to disk, the optimizer rebuilds the exact operator tree from its traversal sequences to avoid re-optimization of repeated queries.
 ## Interview Tips
 - TODO

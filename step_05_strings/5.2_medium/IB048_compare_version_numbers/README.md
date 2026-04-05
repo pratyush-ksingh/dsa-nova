@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Package managers like npm and pip compare semantic version strings (e.g., '1.10.2' vs '1.9.14') to resolve dependency conflicts and determine upgrade paths. App stores like Google Play use version comparison logic to decide whether to prompt users for updates based on installed vs. latest version strings.
 ## Interview Tips
 - TODO

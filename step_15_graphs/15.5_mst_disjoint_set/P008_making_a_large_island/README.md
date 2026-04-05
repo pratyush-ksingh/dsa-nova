@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Urban planning tools and real city planners evaluate which single land reclamation project (flipping one water cell to land) would create the largest contiguous buildable area. The Union-Find approach with component-size tracking lets planners instantly evaluate each candidate cell without running BFS from scratch for every option.
 ## Interview Tips
 - TODO

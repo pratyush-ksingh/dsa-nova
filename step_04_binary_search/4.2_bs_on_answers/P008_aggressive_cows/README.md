@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cell tower placement optimization at T-Mobile uses binary search on minimum distance to maximize coverage gaps between towers. Warehouse shelf spacing at IKEA uses the same algorithm to place products with maximum minimum separation, ensuring efficient forklift navigation.
 ## Interview Tips
 - TODO

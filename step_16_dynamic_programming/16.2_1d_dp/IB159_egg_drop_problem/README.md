@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Quality assurance teams at Samsung and Apple use the egg drop problem's DP to design optimal testing strategies for phone drop tests. Given a limited number of test devices (eggs) and a building with many floors, the algorithm determines the minimum number of tests needed to find the exact breaking threshold -- directly applicable to hardware stress testing protocols.
 ## Interview Tips
 - TODO

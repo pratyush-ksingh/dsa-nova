@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Quantitative trading firms like Two Sigma use the MaxSPProduct (maximum special product) algorithm to identify price patterns in stock tick data. By finding the nearest larger elements on both sides of each price point using monotonic stacks, the algorithm detects local support and resistance levels, which are key signals in algorithmic trading strategies.
 
 ## Interview Tips
 - TODO

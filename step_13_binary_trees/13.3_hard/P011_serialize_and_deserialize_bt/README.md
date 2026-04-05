@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Distributed systems like Apache Kafka and gRPC serialize tree-structured data (XML/JSON DOMs, ASTs, decision trees) for network transmission. Protocol Buffers at Google use tree serialization/deserialization to encode nested message structures into flat byte streams and reconstruct them on the receiving end.
 ## Interview Tips
 - TODO

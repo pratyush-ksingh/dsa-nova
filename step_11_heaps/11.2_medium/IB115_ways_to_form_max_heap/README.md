@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database systems like MySQL use heap-structured priority queues for their internal memory allocators. Understanding the number of valid max-heap arrangements helps engineers at Oracle and PostgreSQL optimize how buffer pool pages are organized, ensuring the most-accessed pages remain at the top of the heap structure for O(1) retrieval.
 ## Interview Tips
 - TODO

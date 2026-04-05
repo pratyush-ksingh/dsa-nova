@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+LED display marquees at Times Square render scrolling text in zigzag patterns across multi-row pixel grids, requiring the same row-assignment logic. Text rendering engines in Adobe InDesign use zigzag reordering for boustrophedon typesetting, an ancient writing style still used in specialized archaeological publications.
 ## Interview Tips
 - TODO

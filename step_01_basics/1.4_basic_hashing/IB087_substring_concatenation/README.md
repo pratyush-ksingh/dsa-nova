@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Search engines like Elasticsearch use sliding-window hashing to find documents containing all query terms as a concatenated substring match. DNA sequencing tools at Illumina search for gene marker concatenations within long genome strings using the same word-frequency window technique.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Image editing applications like Adobe Photoshop rotate photos by 90 degrees using transpose-then-reverse matrix operations on pixel grids. Mobile game engines like Unity rotate tile maps for isometric view transformations using the same in-place matrix rotation technique.
 ## Interview Tips
 - TODO

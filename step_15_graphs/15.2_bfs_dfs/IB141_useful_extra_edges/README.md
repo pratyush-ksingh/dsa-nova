@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Network infrastructure teams at Cloudflare and Akamai evaluate candidate backup links to add to their CDN topology. The useful-extra-edges problem models finding which additional network links would actually reduce latency between data centers. Only edges that improve upon existing shortest paths are worth the cost of physical installation.
 ## Interview Tips
 - TODO

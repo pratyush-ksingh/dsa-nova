@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Real estate platforms like Zillow and neighborhood planning tools compute the minimum cost to paint a row of houses with no two adjacent houses sharing the same color. This DP approach models HOA compliance constraints and is used by painting contractor software to generate minimum-cost color plans that satisfy aesthetic neighborhood rules.
 ## Interview Tips
 - TODO

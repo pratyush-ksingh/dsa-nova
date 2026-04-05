@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Log rotation systems in Apache Kafka rotate circular buffer partitions by K positions to maintain chronological ordering after compaction. Image processing pipelines in Adobe Photoshop use array rotation to implement circular shift filters for panoramic photo stitching.
 ## Interview Tips
 - TODO

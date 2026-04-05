@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Twitch's live chat moderation system uses the first-non-repeating-character-in-stream algorithm to detect unique emotes and commands in real-time chat streams. By maintaining a queue and frequency map, the system identifies the first unique message in the stream for priority display, filtering out spam repetitions with O(1) per-character processing.
 
 ## Interview Tips
 - TODO

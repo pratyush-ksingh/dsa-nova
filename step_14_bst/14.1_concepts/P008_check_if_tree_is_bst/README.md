@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database engines like MySQL's InnoDB and SQLite validate their B-tree index structures during consistency checks (e.g., CHECK TABLE, PRAGMA integrity_check). Verifying the BST property -- that every node's key falls within the correct min/max range inherited from ancestors -- is the core of index corruption detection that protects against data loss.
 ## Interview Tips
 - TODO

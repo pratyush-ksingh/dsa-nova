@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cloud storage systems like Amazon S3 organize data in complete binary tree structures for indexing. Counting the total number of stored objects without scanning every leaf uses the O(log^2 n) trick: check left and right subtree heights to determine if the last level is full, avoiding a full O(n) traversal across billions of objects.
 ## Interview Tips
 - TODO

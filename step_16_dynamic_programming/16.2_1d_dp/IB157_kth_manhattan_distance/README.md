@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Ride-sharing platforms like Uber and Lyft compute Manhattan distance neighborhoods on city grids to find the Kth nearest driver. The DP-based approach to computing maximum values within Manhattan distance K on a grid is used in geographic query optimization, enabling efficient spatial queries without checking every cell in the service area.
 ## Interview Tips
 - TODO

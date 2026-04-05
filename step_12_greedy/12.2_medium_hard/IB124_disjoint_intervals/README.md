@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Google Calendar's free/busy API merges overlapping meeting times and returns the minimal set of disjoint busy intervals. When scheduling across organizations, the system greedily inserts new events into the existing interval set, merging overlaps to maintain a clean disjoint representation -- the exact operation this problem requires.
 ## Interview Tips
 - TODO

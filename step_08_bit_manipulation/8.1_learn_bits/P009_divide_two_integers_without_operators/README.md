@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+ARM Cortex-M0 microcontrollers (used in billions of IoT devices) lack a hardware division instruction, so their C runtime implements division using repeated bit-shifting and subtraction -- exactly the algorithm in this problem. Each iteration doubles the divisor via left-shift to find the largest multiple that fits, achieving O(log n) division on hardware that only supports addition, subtraction, and shifts.
 
 ## Interview Tips
 - TODO

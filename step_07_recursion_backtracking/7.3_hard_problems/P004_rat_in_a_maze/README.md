@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+iRobot's Roomba vacuum uses a rat-in-a-maze backtracking algorithm for its early-generation navigation system. The robot explores each direction recursively, marks visited cells, and backtracks when hitting walls or previously cleaned areas. This ensures complete floor coverage even in complex room layouts with furniture obstacles.
 
 ## Interview Tips
 - TODO

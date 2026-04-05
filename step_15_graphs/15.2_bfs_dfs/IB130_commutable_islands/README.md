@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Telecom companies like AT&T and Verizon use minimum spanning tree algorithms to plan undersea cable routes connecting island territories. The commutable islands problem is a direct model of this: find the minimum-cost set of bridges to connect all islands. Prim's or Kruskal's MST ensures the cheapest network that maintains full connectivity.
 ## Interview Tips
 - TODO

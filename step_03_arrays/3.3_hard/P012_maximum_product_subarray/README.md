@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Revenue forecasting at Salesforce identifies the product of consecutive quarterly growth rates that yields the maximum compound growth factor. Image processing pipelines in medical imaging (Siemens Healthineers) find the maximum product of consecutive pixel intensities to enhance contrast in MRI scans.
 ## Interview Tips
 - TODO

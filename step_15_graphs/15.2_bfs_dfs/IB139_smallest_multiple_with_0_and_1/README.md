@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cryptographic key generation and number theory libraries (like GMP, used by OpenSSL) solve special-form divisibility problems using BFS on digit construction. The smallest-multiple-with-0-and-1 pattern appears in barcode generation systems where check digits must satisfy divisibility constraints, and BFS over remainders efficiently finds the smallest valid encoding.
 ## Interview Tips
 - TODO

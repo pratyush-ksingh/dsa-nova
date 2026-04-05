@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Construction project scheduling at Bechtel divides wall sections among painting crews to minimize the maximum time any crew spends. Cloud batch processing at AWS Lambda partitions workloads across function instances using binary search to minimize the slowest instance's completion time.
 ## Interview Tips
 - TODO

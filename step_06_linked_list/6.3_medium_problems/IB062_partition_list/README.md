@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Apache Kafka uses partition-based reorganization when rebalancing consumer groups across brokers. The partition list algorithm mirrors how Kafka splits message queues into two groups -- messages assigned to the current consumer and those that must be redistributed -- then stitches them back together to maintain ordering guarantees within each partition.
 
 ## Interview Tips
 - TODO

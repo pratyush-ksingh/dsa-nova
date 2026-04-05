@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Samsung's Smart TV remote uses the letter-phone (T9) mapping to generate text predictions from numeric keypad input. When users press number keys to search for content, the algorithm generates all possible letter combinations and matches them against the content library, enabling fast title search without a full QWERTY keyboard.
 
 ## Interview Tips
 - TODO

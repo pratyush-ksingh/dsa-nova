@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Load balancers at AWS Elastic Load Balancing find partition points where left-sum and right-sum of server loads are equal, enabling optimal traffic splitting. Audio equalization software in Spotify finds frequency split points where energy is balanced across sub-bands for optimal sound reproduction.
 ## Interview Tips
 - TODO

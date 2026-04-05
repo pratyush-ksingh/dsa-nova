@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Stock analysis tools compute the maximum span between buy and sell days where the sell price exceeds the buy price using the max-distance technique on sorted indices. Delivery route optimizers at UPS find the maximum feasible distance between pickup and drop-off points in a sorted schedule to maximize truck utilization.
 ## Interview Tips
 - TODO

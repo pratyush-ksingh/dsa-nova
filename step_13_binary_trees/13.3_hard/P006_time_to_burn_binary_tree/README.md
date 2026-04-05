@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cybersecurity incident response tools model malware propagation through network hierarchies as a fire spreading through a tree. CrowdStrike and SentinelOne use BFS from the infection point to estimate how long until every node in the network segment is compromised -- the exact computation in this problem -- to prioritize isolation responses.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Load distribution in Apache Hadoop divides data blocks across worker nodes by binary-searching for the minimum maximum load per node. Print queue management at large offices allocates print jobs across printers using the same minimize-the-maximum partition strategy.
 ## Interview Tips
 - TODO

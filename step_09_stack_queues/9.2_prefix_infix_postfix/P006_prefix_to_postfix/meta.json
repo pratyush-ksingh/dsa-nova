@@ -12,15 +12,15 @@
   "status": "SOLVED",
   "approaches_completed": {
     "brute_force": {
-      "java": false,
+      "java": true,
       "python": true
     },
     "optimal": {
-      "java": false,
+      "java": true,
       "python": true
     },
     "best": {
-      "java": false,
+      "java": true,
       "python": true
     }
   },

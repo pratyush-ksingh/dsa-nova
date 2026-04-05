@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+In airline seat assignment systems, airlines like Delta and United need to move passengers to fill gaps and consolidate groups with minimum total displacement. The greedy median-based approach from this problem minimizes total moves, which parallels how load balancers redistribute requests across servers to minimize migration cost during rebalancing.
 ## Interview Tips
 - TODO

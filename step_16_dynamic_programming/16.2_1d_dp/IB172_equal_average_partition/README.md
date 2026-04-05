@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+School district zoning tools partition student populations into groups with equal average test scores to ensure balanced classrooms. The equal-average-partition DP (a subset-sum variant) is used by educational platforms like Khan Academy to split students into study groups where each group has the same average skill level, enabling fair peer collaboration.
 ## Interview Tips
 - TODO

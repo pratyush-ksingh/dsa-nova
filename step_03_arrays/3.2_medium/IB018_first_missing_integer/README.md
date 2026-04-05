@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cloud resource managers at AWS use cyclic-sort placement to find the first available server ID in a pool for auto-scaling. User registration systems at large platforms like Discord find the smallest unused account number using in-place index mapping, avoiding extra memory allocation for billion-user scales.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Financial software like QuickBooks converts fractions to decimal with repeating-cycle detection to display exact currency exchange rates. Scientific computing libraries such as MATLAB detect repeating decimal cycles to warn users about precision loss in floating-point calculations.
 ## Interview Tips
 - TODO

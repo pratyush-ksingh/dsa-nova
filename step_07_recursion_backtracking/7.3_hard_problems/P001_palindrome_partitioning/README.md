@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Grammarly's text analysis engine uses palindrome partitioning to detect and highlight palindromic patterns in creative writing. The algorithm partitions a string into all possible sets of palindromic substrings, which helps identify intentional literary devices like palindromic phrases, aiding Grammarly's style and tone suggestions for authors.
 
 ## Interview Tips
 - TODO

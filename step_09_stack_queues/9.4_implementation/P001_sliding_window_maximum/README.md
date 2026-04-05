@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Cloudflare's DDoS mitigation system uses the sliding-window-maximum algorithm with a monotonic deque to track peak request rates across rolling time windows. By maintaining the maximum requests-per-second in O(1) amortized time as the window slides forward, the system instantly detects traffic spikes that exceed threshold and triggers rate limiting.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Google's search engine uses the word-break algorithm to segment concatenated queries (like 'newyorkpizza') into meaningful words ('new york pizza') for better search results. The algorithm checks if the input string can be segmented into a sequence of valid dictionary words, which is critical for handling hashtags, URLs, and CamelCase identifiers in search indexing.
 
 ## Interview Tips
 - TODO

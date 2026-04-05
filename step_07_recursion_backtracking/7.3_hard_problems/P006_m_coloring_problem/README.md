@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Google Maps uses the M-coloring algorithm to assign colors to adjacent regions on the map so that no two neighboring countries or states share the same color. The four-color theorem guarantees M=4 suffices for any planar map, and the backtracking algorithm finds a valid assignment that makes the map visually distinguishable.
 
 ## Interview Tips
 - TODO

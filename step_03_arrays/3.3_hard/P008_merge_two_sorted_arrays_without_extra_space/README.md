@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Embedded systems in medical devices like pacemakers merge sorted sensor readings from two channels in-place due to strict memory constraints. Database compaction in LevelDB merges sorted SSTables without allocating extra memory to minimize garbage collection pauses during high-throughput writes.
 ## Interview Tips
 - TODO

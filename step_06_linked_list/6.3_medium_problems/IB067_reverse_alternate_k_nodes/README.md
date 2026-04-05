@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Adobe InDesign's text layout engine uses reverse-alternate-k-nodes logic for boustrophedon (alternating direction) typesetting in certain Middle Eastern and ancient script layouts. Groups of k characters are alternately kept in order and reversed, mimicking how a plow moves back and forth across a field, which is the origin of the word boustrophedon.
 
 ## Interview Tips
 - TODO

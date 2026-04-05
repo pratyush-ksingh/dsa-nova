@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Hadoop's distributed merge step during MapReduce uses the same strategy as connect ropes: when merging many sorted intermediate files, it always merges the two smallest files first (using a min-heap) to minimize total I/O cost. Huffman coding in file compression tools like gzip also uses this exact algorithm to build optimal prefix-free codes.
 ## Interview Tips
 - TODO

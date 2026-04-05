@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Honeywell's industrial rotary encoders use Gray code sequences to track angular position of motor shafts. In a Gray code, only one bit changes between consecutive positions, which prevents misreading during transitions (a problem called 'glitching' in binary encoders). This is why Gray codes are the standard in robotics and CNC machine position sensing.
 
 ## Interview Tips
 - TODO

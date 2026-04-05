@@ -14,15 +14,15 @@
   "approaches_completed": {
     "brute_force": {
       "java": true,
-      "python": false
+      "python": true
     },
     "optimal": {
       "java": true,
-      "python": false
+      "python": true
     },
     "best": {
       "java": true,
-      "python": false
+      "python": true
     }
   },
   "date_started": null,

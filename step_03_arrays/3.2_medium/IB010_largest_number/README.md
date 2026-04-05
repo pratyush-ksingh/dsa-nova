@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+E-commerce platforms like Amazon arrange product price digits to form the largest display number for promotional banners using custom comparator sorting. Version numbering systems in package managers like npm use similar lexicographic comparison logic to determine the highest version string from a list of releases.
 ## Interview Tips
 - TODO

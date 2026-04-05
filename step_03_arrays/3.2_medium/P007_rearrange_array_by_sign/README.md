@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Database indexing engines like those in PostgreSQL rearrange data arrays in-place to optimize memory layout for sequential scans. Cloud storage systems such as Google Cloud Storage rearrange block pointers to minimize seek latency when serving large file reads.
 ## Interview Tips
 - TODO

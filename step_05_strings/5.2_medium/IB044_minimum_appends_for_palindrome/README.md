@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+URL shortening services like Bitly use KMP failure-function techniques to find the minimum characters to append for creating palindromic short codes that are memorable. DNA repair simulation tools at CRISPR therapeutics compute minimum base-pair appends to form palindromic recognition sites for restriction enzymes.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Financial auditing software at Deloitte and PwC searches transaction matrices for sub-regions that sum to zero, indicating potential round-tripping fraud where money cycles through accounts. The 2D prefix-sum DP with hash-map approach efficiently identifies these suspicious submatrices in large transaction ledgers without brute-force enumeration.
 ## Interview Tips
 - TODO

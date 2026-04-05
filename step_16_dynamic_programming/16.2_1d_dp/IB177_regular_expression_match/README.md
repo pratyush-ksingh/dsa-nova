@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Text processing engines like Google's RE2 and PCRE implement regular expression matching using DP to handle '.' (any char) and '*' (zero or more) wildcards. Every time a developer uses regex in Python, JavaScript, or grep, the underlying engine uses a DP or NFA approach equivalent to this problem to match patterns against input strings in polynomial time.
 ## Interview Tips
 - TODO

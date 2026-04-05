@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Big-integer libraries in cryptocurrency wallets like MetaMask check if extremely large numbers are powers of two to validate block reward halving events on the Bitcoin blockchain. Memory allocators in the Linux kernel verify power-of-two sizes for buddy system allocation using string-based big number division.
 ## Interview Tips
 - TODO

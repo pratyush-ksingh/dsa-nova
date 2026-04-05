@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Apple's iOS keyboard autocomplete uses the letter-combinations-of-phone-number algorithm (T9 mapping) as a fallback when suggesting words from numeric input on older phone models and accessibility interfaces. Each digit maps to 3-4 letters, and the algorithm generates all possible character combinations to match against a dictionary, which is exactly how T9 predictive text worked on Nokia and Motorola phones.
 
 ## Interview Tips
 - TODO

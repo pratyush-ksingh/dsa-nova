@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Pharmaceutical companies like Pfizer use the word-ladder-II approach to find ALL shortest mutation paths between DNA/protein sequences, not just one. Each valid intermediate sequence must exist in a dictionary of known viable molecules. Finding all shortest paths via BFS + backtracking helps researchers identify every possible evolutionary pathway between two genetic sequences.
 ## Interview Tips
 - TODO

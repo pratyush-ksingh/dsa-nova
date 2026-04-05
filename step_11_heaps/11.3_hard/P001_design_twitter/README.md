@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Twitter's actual home timeline service uses a merge-k-sorted-lists approach with heaps to combine tweets from hundreds of followed accounts into a single feed. Each user's tweet list is sorted by timestamp, and a min-heap efficiently merges them to produce the most recent N tweets for the timeline, exactly as described in this LeetCode problem.
 ## Interview Tips
 - TODO

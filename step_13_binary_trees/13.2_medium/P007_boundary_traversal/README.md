@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Geographic Information Systems (GIS) used by Google Maps extract the boundary of hierarchical region trees to render map outlines. The boundary traversal algorithm (left boundary + leaves + right boundary) is analogous to how cartographic software traces the perimeter of nested administrative regions to draw border polygons.
 ## Interview Tips
 - TODO

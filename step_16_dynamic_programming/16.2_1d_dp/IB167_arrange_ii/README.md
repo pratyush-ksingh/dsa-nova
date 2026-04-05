@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Warehouse layout optimization tools at Amazon Fulfillment Centers arrange items into designated zones (bins) to minimize the total mismatch penalty. The arrange-II DP partitions a sequence of items into K contiguous groups, minimizing the total cost -- exactly how Amazon decides which products to co-locate in the same warehouse aisle for efficient picking.
 ## Interview Tips
 - TODO

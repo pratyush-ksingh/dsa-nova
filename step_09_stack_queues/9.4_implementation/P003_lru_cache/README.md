@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Memcached and Redis, used by Facebook, Twitter, and Instagram, implement LRU (Least Recently Used) cache eviction using a hash map combined with a doubly linked list -- exactly the data structure in this problem. When the cache is full, the least recently accessed item (tail of the linked list) is evicted in O(1) time, enabling these systems to serve millions of cache lookups per second.
 
 ## Interview Tips
 - TODO

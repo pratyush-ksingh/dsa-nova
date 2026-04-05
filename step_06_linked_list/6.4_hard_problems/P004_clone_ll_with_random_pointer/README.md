@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Git's internal object model uses deep-copy-with-random-pointers when cloning a repository. Each commit node has a 'parent' pointer (next) and a 'tree' pointer (random) to its snapshot. The clone algorithm must duplicate every node while correctly remapping all tree pointers to the cloned copies, which is exactly the interleaving technique used in this problem.
 
 ## Interview Tips
 - TODO

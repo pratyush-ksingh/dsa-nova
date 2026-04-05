@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Elasticsearch's highlight feature uses the minimum-window-substring algorithm to find the smallest text snippet containing all query terms for search result previews. When you search for multiple keywords, the algorithm finds the shortest contiguous text window containing all terms, which becomes the highlighted snippet shown in search results.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Search engines like Elasticsearch build balanced BST indices from sorted posting lists to enable O(log n) lookups. When ingesting a batch of pre-sorted documents, Lucene (the engine behind Elasticsearch and Apache Solr) uses the sorted-array-to-balanced-BST technique to construct perfectly balanced segment trees, ensuring optimal query performance.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Robot navigation systems at Boston Dynamics and iRobot (Roomba) model obstacle fields as grids and determine whether a valid path exists from start to goal while avoiding circular obstacles. The geometric BFS/DFS approach from this problem is the foundation of grid-based path planning in autonomous vehicles and warehouse robots.
 ## Interview Tips
 - TODO

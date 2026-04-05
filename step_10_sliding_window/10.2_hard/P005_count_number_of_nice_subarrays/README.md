@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Stripe's fraud detection system uses the count-nice-subarrays algorithm to analyze transaction sequences. Odd-valued transactions (flagged as suspicious) are counted in every contiguous window, and the system counts how many transaction windows contain exactly k suspicious transactions, helping identify fraud patterns using the at-most-k sliding window technique.
 
 ## Interview Tips
 - TODO

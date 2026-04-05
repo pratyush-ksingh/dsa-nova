@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Microsoft Outlook and Google Workspace use the meeting rooms algorithm to compute the minimum number of conference rooms needed for a day's schedule. The greedy approach of sorting by start time and using a min-heap to track room end times is exactly how enterprise room-booking systems at companies like WeWork allocate shared spaces efficiently.
 ## Interview Tips
 - TODO

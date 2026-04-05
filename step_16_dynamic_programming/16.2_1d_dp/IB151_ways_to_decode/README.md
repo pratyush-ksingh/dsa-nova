@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Telecommunication systems decode encoded messages where digit sequences map to letters (like T9 input on old phones). The ways-to-decode DP is used in SMS encoding/decoding at companies like Twilio to count ambiguous decodings and select the most probable interpretation. Barcode scanners also use this pattern to handle ambiguous digit-to-character mappings.
 ## Interview Tips
 - TODO

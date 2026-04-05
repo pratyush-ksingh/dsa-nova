@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Collaborative filtering at Spotify measures how differently two users rank songs by counting inversions between their playlists, using merge-sort counting to compute Kendall tau distance. Financial risk models at Goldman Sachs count inversions in time-series data to quantify market disorder and volatility.
 ## Interview Tips
 - TODO

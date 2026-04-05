@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Banking systems generate valid credit card numbers and account numbers that must have a specific digit sum (related to the Luhn checksum algorithm). The DP for counting N-digit numbers with digit sum S is used by payment processors like Stripe and Square to enumerate valid number ranges and validate card number distributions for fraud detection.
 ## Interview Tips
 - TODO

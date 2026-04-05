@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Code editors and IDEs like VS Code and JetBrains use the longest-valid-parentheses algorithm to highlight the largest correctly balanced bracket region in source code. This helps developers quickly identify where bracket matching breaks down in deeply nested code. Compilers at Clang and GCC use similar DP to recover from syntax errors by finding the longest valid expression prefix.
 ## Interview Tips
 - TODO

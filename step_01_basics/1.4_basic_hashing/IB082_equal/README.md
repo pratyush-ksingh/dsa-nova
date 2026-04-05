@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Recommendation engines at Netflix use pair-matching to find movies with equal similarity scores to a user's preferences. Duplicate image detection systems at Google Photos hash pixel blocks and look for equal-sum pairs to identify visually similar photos without pixel-by-pixel comparison.
 ## Interview Tips
 - TODO

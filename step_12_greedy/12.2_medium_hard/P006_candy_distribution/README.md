@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Performance review systems at companies like Salesforce assign merit bonuses where each employee must get at least one unit, and anyone rated higher than a neighbor must receive more. The two-pass greedy approach from the candy problem is used to compute fair minimum-cost bonus distributions that satisfy all relative-ranking constraints.
 ## Interview Tips
 - TODO

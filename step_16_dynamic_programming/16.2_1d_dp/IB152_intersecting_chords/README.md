@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Computational geometry libraries used by Adobe Illustrator and AutoCAD compute the number of ways to draw non-intersecting chords in a circle, which corresponds to the Catalan number sequence. This DP is used in VLSI routing to count valid wiring configurations where connections must not cross, and in database query planning for counting valid join orderings.
 ## Interview Tips
 - TODO

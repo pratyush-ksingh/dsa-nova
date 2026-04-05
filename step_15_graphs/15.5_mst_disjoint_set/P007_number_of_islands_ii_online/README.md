@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Real-time mapping services at Mapbox process streaming geographic data where new land tiles appear over time. Using Union-Find (as in Number of Islands II), the system incrementally maintains the count of distinct landmasses as new data arrives, without reprocessing the entire map. This online connected-component tracking is also used in social network friend-group counting at Meta.
 ## Interview Tips
 - TODO

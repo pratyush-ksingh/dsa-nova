@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Elasticsearch merges results from multiple shards using a k-way merge of sorted posting lists during distributed search queries. Each shard returns a sorted list of document IDs ranked by relevance, and the coordinating node uses a min-heap to merge k sorted lists in O(N log k) time, enabling sub-second search across billions of documents.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+ASML's chip lithography machines use N-Queens-style constraint satisfaction to place non-interfering laser exposure points on silicon wafers. Each exposure point must not share a row, column, or diagonal with others to prevent optical interference, directly mirroring the N-Queens constraint, and the backtracking algorithm efficiently explores valid placements for nanometer-scale precision.
 
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Qualcomm's 5G modem firmware uses binary string generation (without consecutive 1s) to enumerate valid codewords in Run-Length Limited (RLL) encoding. RLL codes prevent consecutive 1-bits to reduce inter-symbol interference on the radio channel. The constraint that no two adjacent bits are both 1 directly maps to generating binary strings with no consecutive ones.
 
 ## Interview Tips
 - TODO

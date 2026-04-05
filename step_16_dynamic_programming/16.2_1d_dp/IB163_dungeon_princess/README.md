@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Game developers at Nintendo and Blizzard use the dungeon-game DP to calculate the minimum starting health a player needs to survive a grid-based dungeon level. This bottom-up DP (working backwards from the goal cell) is used in level design tools to auto-balance game difficulty, ensuring levels are challenging but always completable with the right starting stats.
 ## Interview Tips
 - TODO

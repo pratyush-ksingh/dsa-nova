@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Banking fraud detection systems at JPMorgan identify the longest sequence of transactions where deposits and withdrawals perfectly cancel out, flagging potential money laundering cycles. Network packet analyzers at Wireshark find the longest zero-sum window of send/receive deltas to detect covert data channels.
 ## Interview Tips
 - TODO

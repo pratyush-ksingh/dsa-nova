@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+The Undo/Redo system in Microsoft Excel sorts its operation stack recursively when resolving conflicting macro operations. When multiple VBA macros push operations onto the undo stack in interleaved order, Excel recursively sorts the stack by timestamp to ensure that Ctrl+Z undoes operations in the correct chronological order.
 
 ## Interview Tips
 - TODO

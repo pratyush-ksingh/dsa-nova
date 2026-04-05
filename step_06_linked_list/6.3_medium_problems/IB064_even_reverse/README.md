@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Google Docs' operational transformation engine sometimes needs to reverse the order of even-indexed edit operations when resolving merge conflicts between concurrent editors. The even-reverse pattern isolates every other operation, reverses that subsequence, and merges it back, preserving the interleaving of odd-indexed operations to maintain document consistency.
 
 ## Interview Tips
 - TODO

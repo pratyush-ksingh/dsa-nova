@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Chemical process simulation tools at BASF and Dow Chemical model sequential mixing of reagents where intermediate mixtures can have negative properties (toxicity). The potions DP determines the optimal merging order to minimize the worst-case intermediate value, analogous to how pharmaceutical companies at Pfizer sequence drug compound mixing to avoid dangerous intermediate states.
 ## Interview Tips
 - TODO

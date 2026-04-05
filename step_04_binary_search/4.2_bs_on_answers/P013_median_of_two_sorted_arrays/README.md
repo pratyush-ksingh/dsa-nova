@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Real-time analytics at Twitter computes the median engagement metric across two sorted data streams (likes and retweets) without merging them fully. Distributed database systems like Apache Cassandra find the median query latency across two sorted node response logs using binary search partitioning.
 ## Interview Tips
 - TODO

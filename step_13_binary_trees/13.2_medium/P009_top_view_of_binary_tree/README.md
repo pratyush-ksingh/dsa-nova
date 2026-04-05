@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Network topology visualization tools like Cisco's network maps show a top view of hierarchical network trees, displaying only the first device visible at each horizontal position. This prevents visual clutter by hiding devices that are occluded by higher-level switches or routers, exactly as the top-view algorithm selects the first node at each column.
 ## Interview Tips
 - TODO

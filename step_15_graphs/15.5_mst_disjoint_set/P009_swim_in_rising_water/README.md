@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Emergency evacuation route planners at FEMA and disaster response agencies model flood scenarios where water rises over time. The swim-in-rising-water algorithm (binary search + BFS, or Dijkstra-like min-max path) finds the earliest time a safe route exists from shelter to evacuation point, directly informing evacuation timing decisions during hurricanes and tsunamis.
 ## Interview Tips
 - TODO

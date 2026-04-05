@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Combinatorial testing tools like Microsoft PICT generate the next test configuration permutation to ensure systematic coverage of parameter combinations. E-commerce recommendation engines generate next-permutation product display orderings to A/B test which arrangement maximizes click-through rates.
 ## Interview Tips
 - TODO

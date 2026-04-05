@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Cloud resource schedulers at AWS use max-heaps to allocate compute instances greedily. When a burst of requests arrives (K units of demand), the scheduler picks the largest available resource pool, allocates from it, and puts back the reduced pool -- exactly mirroring the magician-and-chocolates pattern for maximizing total throughput.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Chess AI engines like Stockfish and Google's AlphaZero precompute queen attack patterns on blocked boards using DP. For each queen position, the number of reachable squares considering obstacles is computed via directional prefix sums. This accelerates move generation in chess engines that must evaluate millions of board positions per second.
 ## Interview Tips
 - TODO

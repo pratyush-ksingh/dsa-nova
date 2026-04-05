@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+The Linux kernel's path resolution in the VFS (Virtual File System) layer uses the simplify-directory-path algorithm when processing system calls like open() and stat(). The kernel uses a stack to resolve '.', '..', and redundant slashes in file paths, converting paths like '/home/user/../user/./docs/' to '/home/user/docs' for canonical inode lookup.
 
 ## Interview Tips
 - TODO

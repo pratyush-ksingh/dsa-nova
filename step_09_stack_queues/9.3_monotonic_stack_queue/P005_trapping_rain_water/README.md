@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Civil engineering software like Autodesk Civil 3D uses the trapping-rain-water algorithm to calculate stormwater runoff volume from terrain elevation profiles. Given a cross-section of land elevations, the algorithm computes how much water would pool in depressions after rainfall, which is critical for designing drainage systems and flood prevention infrastructure.
 
 ## Interview Tips
 - TODO

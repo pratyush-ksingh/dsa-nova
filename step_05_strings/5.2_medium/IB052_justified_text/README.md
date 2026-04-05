@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Document rendering engines in Microsoft Word and Google Docs implement full text justification by distributing extra spaces evenly across words on each line. Typesetting systems like LaTeX use the same greedy line-filling and space-distribution algorithm to produce professionally formatted academic papers and books.
 ## Interview Tips
 - TODO

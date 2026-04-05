@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Google Calendar merges overlapping meeting times to display consolidated busy blocks in scheduling views. CI/CD pipeline managers like Jenkins merge overlapping build time-windows to calculate actual resource utilization and avoid double-counting in billing dashboards.
 ## Interview Tips
 - TODO

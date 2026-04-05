@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Compiler optimization passes at LLVM enumerate all structurally unique expression trees with a given number of operands to find the most efficient evaluation order. The unique-BST-II problem (generating all valid BSTs with N nodes) is a core subroutine in exhaustive search optimizers that evaluate every possible parse tree to select the one with minimum computation cost.
 ## Interview Tips
 - TODO

@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Social network moderation tools at Meta (Facebook) use graph bipartiteness checking to detect polarized communities. If users can be split into two groups where conflicts only exist between groups (not within), the network is bipartite. This BFS/DFS 2-coloring algorithm identifies whether a conflict graph represents a clean two-sided division.
 ## Interview Tips
 - TODO

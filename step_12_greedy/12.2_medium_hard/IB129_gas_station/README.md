@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Logistics companies like FedEx and UPS plan delivery truck routes as circular tours with fuel stops. The gas station algorithm determines the optimal starting depot such that the truck never runs out of fuel. This greedy approach is used in route optimization software to validate tour feasibility and find the best departure point along a circular delivery route.
 ## Interview Tips
 - TODO

@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Airbnb's search ranking system uses a nearest-service-point algorithm similar to the hotel-service problem to score listings based on proximity to points of interest. For each listing, the system computes the minimum distance to each category of amenity (restaurants, transit, attractions), helping users find the best-located accommodations.
 
 ## Interview Tips
 - TODO

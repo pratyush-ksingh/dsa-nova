@@ -52,7 +52,7 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
+Venmo's bill-splitting feature uses the subsequences-with-sum-K algorithm to find which subset of a group's individual charges adds up to a target total. When a restaurant bill needs to be split unevenly, Venmo enumerates subsets summing to the bill total to suggest fair splitting options to the group.
 
 ## Interview Tips
 - TODO

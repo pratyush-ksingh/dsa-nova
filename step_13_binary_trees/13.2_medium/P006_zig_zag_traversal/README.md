@@ -52,7 +52,6 @@ TODO - Add problem description here
 ---
 
 ## Real-World Use Case
-TODO
-
+Web crawlers at Google traverse site hierarchies in a zigzag (alternating) order to balance breadth and depth exploration. E-commerce platforms like Amazon use zigzag-level traversal to render category trees in a visually alternating layout, making it easier for users to distinguish between hierarchy levels in product taxonomies.
 ## Interview Tips
 - TODO
