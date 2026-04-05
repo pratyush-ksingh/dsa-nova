@@ -6,11 +6,14 @@ Run: python scripts/update_progress.py
 """
 
 import os
+import sys
 import json
 import glob
 from datetime import datetime, date
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from shared import get_base_dir
+BASE_DIR = str(get_base_dir())
 PROGRESS_FILE = os.path.join(BASE_DIR, "progress.json")
 BRAIN_FILE = os.path.join(BASE_DIR, "player_brain.json")
 CONFIG_FILE = os.path.join(BASE_DIR, "config.json")

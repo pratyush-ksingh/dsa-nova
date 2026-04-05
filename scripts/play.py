@@ -17,8 +17,12 @@ import random
 import datetime
 from pathlib import Path
 
-# Add parent to path for brain import
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Add scripts dir to path for imports (handles both normal and frozen .exe)
+if getattr(sys, "frozen", False):
+    _scripts_dir = str(Path(sys.executable).resolve().parent / "scripts")
+else:
+    _scripts_dir = str(Path(__file__).resolve().parent)
+sys.path.insert(0, _scripts_dir)
 from brain import (
     load_brain, save_brain, recommend, complete, suggest_similar,
     get_stats, get_weak_topics, load_all_problems, BASE_DIR,

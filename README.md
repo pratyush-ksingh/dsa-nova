@@ -56,6 +56,16 @@ No dependencies to install — pure Python standard library. No `pip install` ne
 python scripts/play.py
 ```
 
+### Build Standalone .exe (optional)
+```bash
+pip install pyinstaller
+pyinstaller --onefile --console --name dsa-nova --paths scripts \
+  --hidden-import brain --hidden-import shared --hidden-import revision \
+  --hidden-import batch_engine --hidden-import real_world \
+  --distpath . --workpath build --specpath build --clean scripts/play.py
+```
+Then run `./dsa-nova.exe` from the project folder. No Python installation needed on the target machine.
+
 ### First Problem
 ```bash
 python scripts/brain.py recommend     # AI picks your next problem
@@ -473,6 +483,12 @@ A: Use `python scripts/brain.py recommend` and the AI will pick appropriately. O
 
 **Q: How is this different from just doing Striver's sheet linearly?**
 A: Three ways: (1) Horizontal batches mean you see ALL topics early, not just arrays for weeks. (2) FSRS ensures you actually remember what you solved. (3) ELO-based difficulty matching keeps you in the optimal learning zone.
+
+**Q: Does my progress save if I close the game?**
+A: Yes. Every action (completing a problem, reviewing, etc.) saves immediately to JSON files. Close the terminal, restart your PC — your progress is always there. No "save game" button needed.
+
+**Q: Can I run this without Python installed?**
+A: Yes! Build the standalone `.exe` with `pip install pyinstaller` and run the build command in the Quick Start section. The resulting `dsa-nova.exe` runs on any Windows machine without Python.
 
 ---
 

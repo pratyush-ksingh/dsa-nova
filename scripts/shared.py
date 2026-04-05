@@ -9,6 +9,23 @@ IMPORTANT: Keys are sorted longest-first to prevent substring collisions.
            e.g., "13.2_medium" must match before "3.2_medium".
 """
 
+import sys
+from pathlib import Path
+
+
+def get_base_dir():
+    """
+    Get the project root directory. Handles both:
+    - Normal Python execution: scripts/ is one level below project root
+    - Frozen .exe (PyInstaller): exe sits in project root alongside step_* folders
+    """
+    if getattr(sys, "frozen", False):
+        # Running as packaged .exe — exe is in project root
+        return Path(sys.executable).resolve().parent
+    else:
+        # Running as script — scripts/ is one level below root
+        return Path(__file__).resolve().parent.parent
+
 # Map folder name fragments to tags.
 # Order matters: longer/more-specific keys MUST come first so that
 # "13.2_medium" is checked before "3.2_medium" (substring match).

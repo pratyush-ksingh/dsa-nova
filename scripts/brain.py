@@ -25,7 +25,8 @@ import datetime
 from collections import defaultdict
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+from shared import get_base_dir
+BASE_DIR = get_base_dir()
 BRAIN_FILE = BASE_DIR / "player_brain.json"
 PROGRESS_FILE = BASE_DIR / "progress.json"
 CONFIG_FILE = BASE_DIR / "config.json"

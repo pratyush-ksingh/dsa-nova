@@ -43,7 +43,9 @@ import random
 from pathlib import Path
 from collections import defaultdict
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from shared import get_base_dir
+BASE_DIR = get_base_dir()
 BATCH_FILE = BASE_DIR / "batch_state.json"
 BRAIN_FILE = BASE_DIR / "player_brain.json"
 

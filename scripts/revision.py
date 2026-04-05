@@ -25,7 +25,9 @@ import math
 import datetime
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from shared import get_base_dir
+BASE_DIR = get_base_dir()
 REVISION_FILE = BASE_DIR / "revision_state.json"
 CONFIG_FILE = BASE_DIR / "config.json"
 

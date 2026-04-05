@@ -28,5 +28,13 @@ out/
 Thumbs.db
 desktop.ini
 
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Executables (build locally with: python build_exe.py)
+dsa-nova.exe
+
 # Claude Code
 .claude/
