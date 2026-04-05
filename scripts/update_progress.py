@@ -45,8 +45,19 @@ def _load_brain():
 
 
 def load_progress():
-    with open(PROGRESS_FILE, "r") as f:
-        return json.load(f)
+    try:
+        with open(PROGRESS_FILE, "r") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        # Return minimal default progress structure
+        return {
+            "player": {"name": "Nova Coder", "level": 1, "title": "Novice",
+                       "total_xp": 0, "current_streak": 0, "longest_streak": 0,
+                       "last_solved_date": None},
+            "xp_thresholds": {"1": 0}, "titles": {"1": "Novice"},
+            "badges": [], "steps_summary": {},
+            "global_stats": {"total_problems": 612, "total_solved": 0}
+        }
 
 
 def save_progress(data):

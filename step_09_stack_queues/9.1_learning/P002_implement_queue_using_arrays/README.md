@@ -135,3 +135,8 @@ The circular array approach is optimal. All operations are O(1) with O(n) space.
 | BFS | Uses queue as its core data structure |
 | Sliding Window Maximum (LC #239) | Uses deque (double-ended queue) |
 | Stack using Queues (LC #225) | Inverse problem -- LIFO from FIFO |
+
+---
+
+## Real-World Use Case
+**Print job spooling:** Operating systems like Windows use an array-backed circular queue to manage print jobs. Documents are enqueued in FIFO order so the first submitted job prints first. The circular array avoids wasted space at the front, matching how the OS print spooler efficiently recycles buffer slots.

@@ -177,3 +177,9 @@ Total: 4
 | Max Consecutive Ones III (LC #1004) | Sliding window with at-most-k constraint |
 | Fruit Into Baskets (LC #904) | Sliding window with at-most-2 distinct elements |
 | Array 3 Pointers (IB059) | Same two-pointer family, different constraint |
+
+---
+
+## Real-World Use Case
+
+Network monitoring tools like Wireshark use subarray counting to identify traffic bursts — counting contiguous time windows where packet rates exceed thresholds helps detect DDoS attacks and bandwidth anomalies in real time.

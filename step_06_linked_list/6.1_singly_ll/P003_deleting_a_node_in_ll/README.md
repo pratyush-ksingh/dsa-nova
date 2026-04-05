@@ -132,3 +132,8 @@ Result: 10 -> 20 -> 40 -> 50
 | Delete in Doubly LL | Same logic but O(1) for delete-given-node thanks to prev pointer |
 | Remove Linked List Elements (LC #203) | Delete all nodes with a given value |
 | Insert in Singly LL | Mirror operation -- same traversal pattern |
+
+---
+
+## Real-World Use Case
+**Memory deallocation in operating systems:** When a process terminates, the OS removes its memory block from the free-list (a linked list of available memory chunks). Linux's `kmalloc`/`kfree` uses linked-list node deletion to reclaim memory, making this the backbone of kernel memory management.

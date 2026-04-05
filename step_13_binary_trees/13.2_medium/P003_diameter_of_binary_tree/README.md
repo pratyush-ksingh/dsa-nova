@@ -170,3 +170,8 @@ O(n) is optimal since the diameter could pass through any node; all must be chec
 | Maximum Path Sum (LC #124) | Diameter of values instead of edges |
 | Longest Univalue Path (LC #687) | Diameter with value constraint |
 | Binary Tree Maximum Width (LC #662) | Another "longest" metric on trees |
+
+---
+
+## Real-World Use Case
+**Network latency analysis:** In a data center network topology (modeled as a tree), the diameter represents the longest path between any two servers -- i.e., the worst-case communication latency. AWS uses this metric to optimize placement of services, ensuring no two dependent services are too far apart.

@@ -159,3 +159,8 @@ For a standard min-heap, Approach 2 **is** the best. You cannot beat O(log n) fo
 | Median in a Stream | Two heaps: max-heap for lower half, min-heap for upper half |
 | Dijkstra's Algorithm | Priority queue (min-heap) drives the greedy shortest-path expansion |
 | Heap Sort | Build max-heap, repeatedly extractMax to sort in-place |
+
+---
+
+## Real-World Use Case
+**Priority-based task scheduling in Kubernetes:** Kubernetes uses a priority queue (min-heap) to decide which pods to schedule next on available nodes. Higher-priority pods are extracted first via `extractMin`. The heap property ensures O(log N) scheduling decisions even across thousands of pending workloads.

@@ -134,3 +134,8 @@ pop():     UNDERFLOW (top == -1)
 | Min Stack (LC #155) | Stack with O(1) getMin -- builds on this implementation |
 | Valid Parentheses (LC #20) | Stack application -- matching brackets |
 | Function Call Stack | The OS uses a stack for function calls -- this is its simplified version |
+
+---
+
+## Real-World Use Case
+**Call stack in JavaScript engines:** V8 (Chrome's JS engine) uses an array-based stack to track function calls. Each function invocation pushes a frame; returning pops it. The fixed-size array approach mirrors the engine's pre-allocated stack memory, and stack overflow errors occur when the array capacity is exceeded.

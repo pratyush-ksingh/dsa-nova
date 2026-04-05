@@ -185,3 +185,8 @@ Trace for p=2, q=4:
 | Search in BST (LC #700) | Same O(h) directed search pattern |
 | Inorder Successor in BST (LC #285) | BST navigation |
 | Ceil in BST | Same left/right decision based on value comparison |
+
+---
+
+## Real-World Use Case
+**Organizational hierarchy queries:** Slack's org-chart feature computes the lowest common ancestor (LCA) to find the nearest shared manager between two employees. In a BST-structured org chart (sorted by employee ID), the LCA is found in O(log N) by exploiting the BST property to navigate left or right.

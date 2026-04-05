@@ -182,3 +182,8 @@ Reverse: [2, 3, 1] -- correct postorder.
 | Delete Nodes (LC #1110) | Postorder ensures children processed before parent deletion |
 | Expression Tree Evaluation | Postorder evaluates operands before operator |
 | Height of Binary Tree (LC #104) | Height is a postorder computation: max(left, right) + 1 |
+
+---
+
+## Real-World Use Case
+**Dependency cleanup and garbage collection:** When deleting a directory tree, `rm -rf` uses postorder traversal -- it deletes all child files before removing the parent directory. Java's garbage collector similarly frees child objects before their parent, ensuring no dangling references remain.

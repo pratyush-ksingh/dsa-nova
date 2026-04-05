@@ -139,3 +139,8 @@ Result: 10 <-> 20 <-> 40 <-> 50
 | Design Linked List (LC #707) | Full implementation of all DLL operations |
 | Flatten Multilevel DLL (LC #430) | Delete/re-link across levels |
 | Delete in Singly LL | Simpler version -- only forward pointers to manage |
+
+---
+
+## Real-World Use Case
+**LRU cache eviction:** Redis and Memcached implement LRU caches using a doubly linked list. When the cache is full, the least-recently-used node (tail) is deleted in O(1) by unlinking its `prev` and `next` pointers. This deletion pattern powers every high-performance caching layer on the web.

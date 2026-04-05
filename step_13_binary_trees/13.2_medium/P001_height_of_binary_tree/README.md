@@ -171,3 +171,8 @@ O(n) is optimal since every node must be visited. Recursive DFS uses O(h) space 
 | Diameter of Tree (LC #543) | Longest path through any node = leftHeight + rightHeight |
 | Maximum Width (LC #662) | BFS with index tracking |
 | Count Complete Tree Nodes (LC #222) | Leverages height for O(log^2 n) solution |
+
+---
+
+## Real-World Use Case
+**Network hop count calculation:** Cloudflare uses tree height to measure the maximum number of hops from their root CDN node to any edge server. The height determines worst-case latency. Keeping the tree height low (balanced) ensures content reaches users in minimal hops.

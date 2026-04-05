@@ -178,3 +178,8 @@ O(n) is optimal because every node must be inspected (the unbalanced subtree cou
 | Maximum Path Sum (LC #124) | Postorder with combined computation |
 | Minimum Depth (LC #111) | Height variant but stops at nearest leaf |
 | Validate BST (LC #98) | Another "check property at every node" pattern |
+
+---
+
+## Real-World Use Case
+**Database index health monitoring:** PostgreSQL's `pg_stat_user_indexes` checks whether B-tree indexes remain balanced after many inserts/deletes. An unbalanced index tree degrades query performance from O(log N) to O(N). This balance check triggers automatic reindexing (REINDEX) to restore performance.

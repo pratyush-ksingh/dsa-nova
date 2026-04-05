@@ -175,3 +175,8 @@ k=28 -> false (no pair sums to 28)
 | Search in BST (LC #700) | BST search is used in the brute force approach |
 | BST Iterator (LC #173) | Enables O(h) space two-pointer on BST |
 | 3Sum (LC #15) | Extension: fix one element, two-sum on the rest |
+
+---
+
+## Real-World Use Case
+**Financial portfolio pair matching:** Trading platforms like Robinhood search for pairs of stock prices that sum to a target value for arbitrage detection. Using a BST with two pointers (smallest and largest via inorder/reverse-inorder), they find matching pairs in O(N) time without extra space beyond the tree itself.

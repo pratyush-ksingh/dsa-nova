@@ -194,3 +194,9 @@ insert(4, 5): 5>4, root.right = insert(7, 5)
 | Validate BST (LC #98) | Insertion produces valid BST; validation checks property |
 | Kth Smallest in BST (LC #230) | Uses inorder traversal which insert maintains |
 | Construct BST from Preorder (LC #1008) | Repeatedly inserts preorder elements |
+
+---
+
+## Real-World Use Case
+
+Database indexing engines like B-tree implementations in MySQL InnoDB use BST insertion as the foundation for maintaining sorted indexes. Auto-complete systems in search engines insert new search terms into balanced BSTs to maintain sorted suggestion lists in real time.

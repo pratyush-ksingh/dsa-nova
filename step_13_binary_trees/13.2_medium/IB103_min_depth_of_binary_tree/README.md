@@ -187,3 +187,8 @@ BFS is the best practical approach. It can return without visiting the entire tr
 | Path Sum (LC #112) | Also root-to-leaf with same leaf definition |
 | Binary Tree Level Order (LC #102) | BFS infrastructure reused here |
 | Shortest Path in Binary Matrix (LC #1091) | BFS for shortest path, same principle |
+
+---
+
+## Real-World Use Case
+**Shortest click path in UI navigation:** UX tools like Hotjar analyze site navigation trees to find the minimum number of clicks to reach any page. The minimum depth of the navigation tree directly measures the best-case user experience -- shallow trees mean faster access to content.

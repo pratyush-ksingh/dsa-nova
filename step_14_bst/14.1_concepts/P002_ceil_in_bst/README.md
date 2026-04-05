@@ -177,3 +177,8 @@ Trace for key=9:
 | LCA of BST (LC #235) | Same BST-guided left/right decision |
 | Inorder Successor in BST (LC #285) | Ceil of node.val after visiting the node |
 | Lower Bound in Sorted Array | Ceil is the tree analog of lower_bound |
+
+---
+
+## Real-World Use Case
+**Price matching in e-commerce:** Amazon's pricing engine finds the ceiling price (smallest price >= target) for "price match" guarantees. The BST ceil operation efficiently locates the next-higher price point in a sorted product catalog, enabling real-time competitive pricing across millions of SKUs.

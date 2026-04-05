@@ -127,3 +127,8 @@ pop():     UNDERFLOW (top == null)
 | Min Stack (LC #155) | Can use LL nodes with an extra `min` field |
 | Reverse a Linked List | Pop all into stack, push back -- reversal via stack |
 | Function Call Stack | Conceptually identical -- each frame is a "node" |
+
+---
+
+## Real-World Use Case
+**Undo system in Adobe Photoshop:** Photoshop's unlimited undo uses a linked-list based stack where each node holds a snapshot of the canvas state. Unlike an array-based stack, the linked-list version never needs resizing, which is critical when each undo frame can be several megabytes of image data.

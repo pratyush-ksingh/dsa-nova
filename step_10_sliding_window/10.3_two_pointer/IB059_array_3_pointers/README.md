@@ -185,3 +185,9 @@ i=3: A exhausted. result = min(9,8,11,5) = 5.
 | 3Sum Closest (LC #16) | Minimize absolute difference from target for 3 numbers from one array |
 | Two Sum in Sorted Array (LC #167) | Two-pointer technique in one array |
 | Counting Subarrays (IB058) | Same two-pointer family |
+
+---
+
+## Real-World Use Case
+
+Database merge-join algorithms use multi-pointer techniques to efficiently join three or more sorted tables. Video editing software like Adobe Premiere uses similar pointer synchronization to align multiple audio/video tracks by timestamp.

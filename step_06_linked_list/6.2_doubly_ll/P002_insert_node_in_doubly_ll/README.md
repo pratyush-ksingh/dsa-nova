@@ -155,3 +155,8 @@ After:
 | Flatten a Multilevel DLL (LC #430) | DLL with child pointers; insertion logic is the foundation |
 | Browser Forward/Back | Doubly linked list of pages with insert-after on navigation |
 | Insert in Singly LL | Same idea but only 2 pointers to manage; simpler but less capable |
+
+---
+
+## Real-World Use Case
+**Text editor cursor operations:** In editors like Sublime Text, the undo/redo buffer is a doubly linked list. Inserting a new edit node between the current state and the next state is exactly doubly-linked-list insertion -- rewiring both `prev` and `next` pointers to splice in the new node.

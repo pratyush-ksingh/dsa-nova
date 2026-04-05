@@ -204,3 +204,9 @@ build(in=[9,3,15,20,7], post=[9,15,7,20,3]):
 | Serialize/Deserialize Binary Tree (LC #297) | Tree reconstruction; can use single traversal with null markers |
 | Verify Preorder Sequence in BST (LC #255) | Uses BST properties to reconstruct from single traversal |
 | Maximum Binary Tree (LC #654) | Build tree from single array using max as root (like Cartesian tree) |
+
+---
+
+## Real-World Use Case
+
+Compiler front-ends reconstruct abstract syntax trees (ASTs) from tokenized expressions using techniques similar to tree reconstruction from traversals. Serialization libraries like Protocol Buffers and Avro use tree reconstruction when deserializing nested data structures from flat byte streams.

@@ -179,3 +179,8 @@ O(n) time cannot be improved (must potentially check all paths). DFS uses O(h) s
 | Sum Root to Leaf Numbers (LC #129) | Accumulate digit-number along path |
 | Binary Tree Maximum Path Sum (LC #124) | Max sum path, any direction |
 | Min Depth of Binary Tree (LC #111) | Same leaf-checking pattern |
+
+---
+
+## Real-World Use Case
+**Network routing cost analysis:** Cisco routers compute whether a path exists between two nodes with a total cost under a threshold. Each edge has a weight (latency), and checking if a root-to-leaf path sums to a target mirrors how OSPF routing protocols validate feasible paths through a network topology.

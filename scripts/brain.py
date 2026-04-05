@@ -592,7 +592,8 @@ def complete(problem_id, time_taken_mins, felt_difficulty, brain=None):
         brain["solved_problems"][uid] = brain["solved_problems"].pop(old_key)
 
     # Update solved problems (keyed by uid)
-    if uid not in brain["solved_problems"]:
+    is_first_solve = uid not in brain["solved_problems"]
+    if is_first_solve:
         brain["solved_problems"][uid] = {
             "first_solved": today,
             "times_solved": 0,
@@ -644,8 +645,9 @@ def complete(problem_id, time_taken_mins, felt_difficulty, brain=None):
 
     total_xp = base_xp + speed_bonus
 
-    # Update progress.json
-    _update_progress(problem_id, total_xp)
+    # Update progress.json (only count XP and solved on first solve)
+    if is_first_solve:
+        _update_progress(problem_id, total_xp)
 
     # Apply streak bonus from config
     streak_bonus = 0
@@ -989,17 +991,20 @@ def cli_similar(args):
         return
 
     pid = args[0]
-    similar = suggest_similar(pid)
+    brain = load_brain()
+    similar = suggest_similar(pid, brain=brain)
 
     if not similar:
         print(f"\n  No similar problems found for {pid}")
         return
 
+    solved_set = set(brain.get("solved_problems", {}).keys())
     print(f"\n{'='*60}")
     print(f"  SIMILAR PROBLEMS to {pid}")
     print(f"{'='*60}")
     for i, p in enumerate(similar, 1):
-        status = "[SOLVED]" if p.get("status") == "SOLVED" else "[UNSOLVED]"
+        uid = p.get("_uid", p.get("id", ""))
+        status = "[SOLVED]" if uid in solved_set else "[UNSOLVED]"
         print(format_problem(p, i) + f"  {status}")
         print()
 

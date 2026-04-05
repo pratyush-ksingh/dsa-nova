@@ -146,3 +146,8 @@ Cannot improve beyond O(n log n) since sorting is required. The greedy scan is O
 | Non-overlapping Intervals (LC #435) | Minimize removals = n - max non-overlapping (same greedy) |
 | Minimum Platforms (Railway) | Similar to Meeting Rooms II: track arrivals/departures |
 | Assign Cookies | Same greedy pattern: sort + match |
+
+---
+
+## Real-World Use Case
+**Conference room scheduling at Google:** Google Calendar's "Find a time" feature selects the maximum number of non-overlapping meetings for a room. By sorting meetings by end time and greedily picking the earliest-ending meeting, the algorithm maximizes room utilization -- the same approach used by this problem.

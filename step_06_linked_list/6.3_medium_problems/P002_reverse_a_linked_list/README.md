@@ -176,3 +176,8 @@ Final: 3 -> 2 -> 1 -> null
 | Reorder List (LC #143) | Find middle, reverse second half, merge |
 | Reverse LL II (LC #92) | Reverse only a subrange [m, n] |
 | Swap Nodes in Pairs (LC #24) | Reversal in groups of 2 |
+
+---
+
+## Real-World Use Case
+**Network packet reassembly:** When TCP packets arrive out of order, routers and network stacks (like Linux's `netfilter`) reverse linked chains of packet fragments to reconstruct the original message. Reversing a linked list is the core operation behind putting scrambled data back in the correct sequence.

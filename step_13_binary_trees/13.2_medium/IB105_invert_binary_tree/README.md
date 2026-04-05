@@ -176,3 +176,8 @@ O(n) is optimal since every node must be visited. Recursive DFS is the most conc
 | Merge Two Binary Trees (LC #617) | Node-by-node transformation |
 | Flip Equivalent Trees (LC #951) | Check if one tree can become another via flips |
 | Binary Tree Level Order (LC #102) | BFS infrastructure reused for iterative approach |
+
+---
+
+## Real-World Use Case
+**Mirror image generation in graphics software:** Adobe Illustrator's "Reflect" tool inverts a tree of grouped SVG elements. Swapping left and right children at every node produces the mirror image. This same operation is used in CSS `transform: scaleX(-1)` to flip component trees in web rendering engines.

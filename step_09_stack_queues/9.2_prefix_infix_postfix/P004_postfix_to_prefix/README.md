@@ -170,3 +170,9 @@ Result: "*+AB-CD"
 | Prefix to Infix | Scan right-to-left, wrap sub-expressions in parentheses |
 | Evaluate Postfix | Same stack scan, push values not strings |
 | Expression Tree | The brute force approach builds one explicitly |
+
+---
+
+## Real-World Use Case
+
+Compilers like GCC convert between expression notations during code optimization phases. The postfix-to-prefix conversion is used in reverse Polish notation (RPN) calculators and in stack-based virtual machines like the Java Virtual Machine (JVM) bytecode interpreter.

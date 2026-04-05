@@ -173,3 +173,9 @@ Result: "((A+B)*(C-D))"
 | Postfix to Prefix | Companion problem |
 | Expression Tree Construction | Brute force builds one explicitly |
 | Basic Calculator (LC #224) | Evaluating infix expressions using similar stack logic |
+
+---
+
+## Real-World Use Case
+
+LISP interpreters convert prefix notation (S-expressions) to infix for human-readable output. Database query optimizers like PostgreSQL's planner convert internal prefix-form expression trees back to infix SQL for EXPLAIN output.

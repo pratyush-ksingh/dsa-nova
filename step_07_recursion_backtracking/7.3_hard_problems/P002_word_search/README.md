@@ -168,3 +168,9 @@ Start at (0,0)='A', idx=0 -> match
 | Surrounded Regions (LC #130) | Grid traversal with marking |
 | Rat in a Maze | Same backtracking on a 2D grid |
 | Boggle (GFG) | Extends this with all dictionary words |
+
+---
+
+## Real-World Use Case
+
+Spell-checking engines like those in Google Docs use grid-based word search algorithms to validate words against dictionaries. The backtracking approach mirrors how OCR systems scan document images character-by-character, exploring adjacent pixels to recognize words.

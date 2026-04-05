@@ -174,3 +174,8 @@ TreeNode(3) -> left: null,        right: null
 | Level Order Traversal (LC #102) | BFS produces the array representation naturally |
 | Serialize/Deserialize Tree (LC #297) | Converting between string and linked representation |
 | Segment Tree | Uses array representation for range queries |
+
+---
+
+## Real-World Use Case
+**JSON/XML parsing engines:** Libraries like Jackson (Java) and `json` (Python) parse nested data into a tree representation. Each JSON object becomes a node whose children are its key-value pairs. This tree representation enables O(depth) lookups and powers every REST API response parser.

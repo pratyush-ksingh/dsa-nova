@@ -185,3 +185,9 @@ total = 8+3+1 = 12  ✓
 | Sum of Bit Differences in Array | Similar bit-position analysis |
 | Brian Kernighan's Bit Trick | Used in brute force; x &= x-1 clears lowest set bit |
 | Hamming Distance | Set bits in XOR of two numbers |
+
+---
+
+## Real-World Use Case
+
+Network routers use bit-counting operations to calculate subnet masks and count active IP addresses in CIDR blocks. Database engines like ClickHouse use population count (popcount) instructions for bitmap index queries, enabling fast cardinality estimation over billions of rows.

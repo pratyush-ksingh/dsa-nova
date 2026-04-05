@@ -127,3 +127,8 @@ Since we must print N times, O(n) is the minimum possible.
 | Factorial | Replace "print" with "multiply" -- same recursive structure |
 | Power Function | Replace "print" with "multiply by base" |
 | Recursive Tree Drawing | Each branch is a "print name N times" with N decreasing |
+
+---
+
+## Real-World Use Case
+**Log flooding and stress testing:** Tools like Apache JMeter or Locust send repeated identical requests to simulate load. Printing a name N times mirrors sending the same API payload N times -- a base case stops the recursion once the target count is reached, just like a rate limiter caps requests.

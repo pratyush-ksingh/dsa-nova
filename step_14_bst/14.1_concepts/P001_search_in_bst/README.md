@@ -171,3 +171,8 @@ val=5 -> Return null (not found)
 | Validate BST (LC #98) | Uses BST property for range checking |
 | Two Sum in BST (LC #653) | Search for complement of each node |
 | Closest Value in BST (LC #270) | Search path, track closest value seen |
+
+---
+
+## Real-World Use Case
+**Autocomplete in search engines:** Google's search bar uses a BST-like trie structure where searching follows the BST property (left < root < right) to narrow down suggestions. Each keystroke prunes half the search space, giving O(log N) lookup time for instant suggestions from billions of queries.

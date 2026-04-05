@@ -177,3 +177,8 @@ O(n) is optimal since every node must be visited. BFS is the canonical, most rea
 | Vertical Order Traversal (LC #987) | BFS with column tracking |
 | Binary Tree Level Order II (LC #107) | Reverse the result |
 | N-ary Tree Level Order (LC #429) | Same BFS, iterate children list |
+
+---
+
+## Real-World Use Case
+**Social network friend suggestions:** LinkedIn's "People You May Know" feature explores your connection graph level by level (BFS). First-degree connections are checked, then second-degree, then third. Level-order traversal ensures closer connections are suggested before distant ones.

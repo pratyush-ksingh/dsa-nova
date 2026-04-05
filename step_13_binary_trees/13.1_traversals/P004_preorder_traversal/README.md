@@ -178,3 +178,8 @@ Think of **exploring a building** floor by floor. When you enter a room (root), 
 | Construct Tree from Pre+In (LC #105) | Uses preorder's root-first property |
 | Serialize/Deserialize (LC #297) | Preorder serialization is common |
 | Flatten BT to Linked List (LC #114) | Preorder gives the flattened order |
+
+---
+
+## Real-World Use Case
+**File system directory listing:** The Unix `find` command performs a preorder traversal -- it visits the directory itself before descending into subdirectories. This is also how `JSON.stringify()` serializes nested objects: process the current node first, then recursively handle children.

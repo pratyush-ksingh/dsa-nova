@@ -130,3 +130,8 @@ Output: 1 -> 2 -> 3 -> 4 -> 5
 | Linked List Cycle | Floyd's algorithm builds on traversal |
 | LRU Cache | Uses doubly linked list + hash map |
 | Array vs Linked List | Classic tradeoff question in interviews |
+
+---
+
+## Real-World Use Case
+**Music playlist (sequential play):** Spotify's play queue is essentially a singly linked list where each track node points to the next song. When you hit "next," the player advances the pointer. The linked-list structure allows O(1) insertion of songs into the queue without shifting elements.

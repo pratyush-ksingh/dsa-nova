@@ -190,3 +190,9 @@ Final path: [1, 2, 5]
 | Lowest Common Ancestor (LC #236) | Uses root-to-node paths for both nodes, then finds divergence |
 | Binary Tree Paths (LC #257) | Enumerate all root-to-leaf paths; same DFS + backtrack |
 | Distance Between Nodes | LCA + two root-to-node paths |
+
+---
+
+## Real-World Use Case
+
+File systems like NTFS and ext4 use root-to-node path computation to resolve absolute file paths from directory trees. Network routing protocols like OSPF trace paths from root routers to destination nodes in spanning trees to compute forwarding tables.

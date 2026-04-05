@@ -65,4 +65,5 @@ if __name__ == "__main__":
         o = optimal(s)
         bt = best(s)
         status = "PASS" if b == o == bt == expected else "FAIL"
-        print(f"[{status}] s={('\"' + s + '\"'):<12} | Brute={b!s:<5} | Recursive={o!s:<5} | Iterative={bt!s:<5} | Expected={expected!s:<5}")
+        quoted = '"' + s + '"'
+        print(f"[{status}] s={quoted:<12} | Brute={b!s:<5} | Recursive={o!s:<5} | Iterative={bt!s:<5} | Expected={expected!s:<5}")

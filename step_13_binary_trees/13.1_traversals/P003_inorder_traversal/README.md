@@ -188,3 +188,8 @@ Imagine reading a **book's table of contents** where each chapter has subsection
 | Validate BST (LC #98) | Inorder must be strictly increasing |
 | Kth Smallest in BST (LC #230) | Inorder traversal, stop at kth element |
 | Flatten BST to Sorted List | Inorder traversal produces the sorted list |
+
+---
+
+## Real-World Use Case
+**Database index range scans:** MySQL's InnoDB engine stores indexes as B+ trees. A range query like `SELECT * FROM users WHERE age BETWEEN 20 AND 30` performs an inorder traversal of the index tree, yielding results in sorted order. This is why indexed range queries are fast -- inorder traversal is inherently sorted.

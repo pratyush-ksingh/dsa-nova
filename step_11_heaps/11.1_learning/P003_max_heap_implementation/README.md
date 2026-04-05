@@ -138,3 +138,8 @@ Binary max-heap with Floyd's heapify is already optimal. O(log n) insert/extract
 | Kth Largest Element | Use min-heap of size k, or max-heap with k extractions |
 | Heap Sort | Build max-heap, repeatedly extractMax |
 | Find Median | Max-heap for lower half, min-heap for upper half |
+
+---
+
+## Real-World Use Case
+**Video streaming bitrate selection:** Netflix's adaptive streaming algorithm maintains a max-heap of available video quality levels. At each buffer check, it extracts the maximum bitrate the bandwidth can support. The max-heap ensures the highest possible quality is always selected in O(log N) time.

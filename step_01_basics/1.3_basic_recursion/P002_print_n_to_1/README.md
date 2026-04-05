@@ -130,3 +130,8 @@ Must print n numbers, so O(n) is the minimum.
 | Reverse a String | Print characters in reverse = print after recursion |
 | Tower of Hanoi | More complex recursion with pre/post actions |
 | Countdown Timer | Real-world analogy of this exact pattern |
+
+---
+
+## Real-World Use Case
+**Undo history in editors:** Applications like VS Code and Google Docs maintain an operation stack. Walking backward from the most recent action (N) to the oldest (1) is conceptually the same recursive countdown. Each undo step "peels off" one operation, exactly like this N-to-1 recursion.

@@ -201,3 +201,9 @@ i=0 (val=3, rank=2): total=3 {7,2,4}. countLE=query(rank[3]=2). Elements <= 3: {
 | Count Inversions | Merge sort counting pattern -- counting pairs where left > right |
 | Daily Temperatures (LC #739) | Find distance to next greater, uses monotonic stack |
 | Number of Visible People in Queue (LC #1944) | Stack-based counting of visible people |
+
+---
+
+## Real-World Use Case
+
+Stock trading platforms like Bloomberg Terminal use next-greater-element counting to analyze price momentum — counting how many future trading days have higher prices helps quantify bullish/bearish signals for technical analysis indicators.

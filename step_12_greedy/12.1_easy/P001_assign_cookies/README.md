@@ -148,3 +148,8 @@ Sorting dominates at O(n log n). The two-pointer pass is already O(n + m). No fu
 | Boats to Save People (LC #881) | Sort + two pointers, pairing heaviest with lightest |
 | Minimum Number of Arrows (LC #452) | Sort intervals by end, greedy selection |
 | Task Scheduler (LC #621) | Greedy: most frequent task first |
+
+---
+
+## Real-World Use Case
+**Cloud resource allocation at AWS:** When provisioning EC2 instances for customer requests, AWS matches the smallest available instance that satisfies each customer's requirement -- exactly the greedy cookie-assignment strategy. Sorting requests and resources ensures maximum customer satisfaction with minimum resource waste.

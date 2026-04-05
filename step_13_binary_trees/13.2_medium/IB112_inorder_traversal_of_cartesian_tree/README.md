@@ -216,3 +216,9 @@ Result: root=40, 40.left=10, 10.left=5, 40.right=30, 30.right=28  CORRECT
 | Maximum Binary Tree (LC #654) | Exactly the same problem -- max element as root! |
 | Treap data structure | Cartesian tree with random priorities |
 | Range Min/Max Query | Sparse Table is reusable technique |
+
+---
+
+## Real-World Use Case
+
+Cartesian trees are used in range-minimum-query (RMQ) data structures that power computational geometry libraries. Database systems use Cartesian tree properties for efficient range queries on indexed columns, and the treap data structure (a Cartesian tree variant) is used in Redis for ordered sets.

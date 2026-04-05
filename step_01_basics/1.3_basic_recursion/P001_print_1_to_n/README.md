@@ -130,3 +130,8 @@ Since we must print n numbers, O(n) time and O(n) stack space is the minimum pos
 | Factorial | Same "do one thing then delegate" recursive pattern |
 | Fibonacci | Adds branching -- two recursive calls |
 | Sum of 1 to N | Replace print with accumulation |
+
+---
+
+## Real-World Use Case
+**Event-driven countdown systems:** Ride-hailing apps like Uber use recursive countdown logic when estimating driver arrival. The recursive 1-to-N pattern mirrors how GPS waypoints are sequentially announced to the driver. Recursion here models the step-by-step progression through a sequence of actions.

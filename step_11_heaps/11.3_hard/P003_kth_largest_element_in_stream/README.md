@@ -152,3 +152,8 @@ The min-heap of size k is already optimal. You cannot maintain a dynamic top-k w
 | Top K Frequent Elements (LC #347) | Heap of size k on frequency counts |
 | Find Median from Data Stream (LC #295) | Two heaps: max-heap for lower half + min-heap for upper half |
 | Last Stone Weight (LC #1046) | Max-heap to always access the two heaviest stones |
+
+---
+
+## Real-World Use Case
+**Real-time leaderboard in online gaming:** Games like Fortnite track the top-K scorers using a min-heap of size K. Each new score is compared against the heap's minimum; if it's larger, it replaces the root. This gives O(log K) updates per event, powering live leaderboards for millions of concurrent players.

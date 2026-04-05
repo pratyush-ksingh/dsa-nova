@@ -76,6 +76,7 @@ FSRS_WEIGHTS, TARGET_RETENTION, EXPECTED_TIMES = _load_fsrs_config()
 # Grade mapping: user feedback -> FSRS grade (1-4)
 GRADE_MAP = {
     "again": 1,   # Couldn't solve / completely forgot the approach
+    "failed": 1,  # Failed attempt (alias for again, used by brain.py)
     "hard": 2,    # Solved but struggled, needed hints, or brute force only
     "good": 3,    # Solved optimally within expected time
     "easy": 4,    # Solved instantly, could explain in sleep
@@ -436,8 +437,11 @@ def get_revision_stats(state):
 # ============================================================
 
 def add_to_revision(problem_id, title, difficulty, grade, time_taken_mins=None):
-    """Add a newly solved problem to the revision system."""
+    """Add a newly solved problem to the revision system. Skips if card already exists."""
     state = load_revision_state()
+    if problem_id in state["cards"]:
+        # Card already exists from a previous solve — don't overwrite FSRS history
+        return state["cards"][problem_id]
     card = create_card(problem_id, title, difficulty, grade, time_taken_mins)
     state["cards"][problem_id] = card
     save_revision_state(state)

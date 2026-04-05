@@ -152,3 +152,8 @@ Implement helper functions: `countNodes`, `height`, `isLeaf`, `printTree` to val
 | Height of Binary Tree | Direct application of tree recursion |
 | BST Search | Trees + ordering constraint = efficient search |
 | Heap | Complete binary tree stored as array |
+
+---
+
+## Real-World Use Case
+**HTML DOM in web browsers:** Every web page is represented as a tree (the DOM). Chrome's Blink rendering engine parses HTML into a tree where each tag is a node with child nodes. Understanding tree structure is fundamental to how React's virtual DOM diffs and updates the UI efficiently.

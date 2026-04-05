@@ -146,3 +146,8 @@ Insert 3 at position 4:
 | Doubly Linked List Insert | Same logic but must update prev pointers too |
 | Add Two Numbers (LC #2) | Builds a new list node by node -- essentially repeated insertion |
 | Copy List with Random Pointer (LC #138) | Complex insertion + pointer manipulation |
+
+---
+
+## Real-World Use Case
+**Browser extension injection:** When Chrome loads extensions, it inserts content-script nodes into the document's internal linked structure. Inserting at the head, tail, or middle of a linked list maps directly to injecting UI elements before, after, or between existing DOM nodes.

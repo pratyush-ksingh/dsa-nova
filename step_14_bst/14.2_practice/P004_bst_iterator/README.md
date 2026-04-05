@@ -213,3 +213,9 @@ hasNext(): false
 | Flatten BST to Sorted List | Iterator visits elements in sorted order; similar controlled traversal |
 | Two Sum in BST (LC #653) | Use two BST iterators (one forward, one reverse) simultaneously |
 | Design Twitter Feed (system design) | Iterator/cursor pattern for lazy data loading |
+
+---
+
+## Real-World Use Case
+
+Database cursor implementations in PostgreSQL and MongoDB use BST iterator patterns to traverse B-tree indexes row-by-row without loading the entire index into memory. This controlled traversal enables efficient pagination in REST APIs serving millions of sorted records.

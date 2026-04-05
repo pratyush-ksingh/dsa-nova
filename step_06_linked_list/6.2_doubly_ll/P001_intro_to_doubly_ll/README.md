@@ -155,3 +155,8 @@ Backward: 2 -> 1 -> 0
 | Browser Back/Forward | Classic DLL application |
 | Singly Linked List | Subset of DLL -- compare tradeoffs |
 | Deque Implementation | DLL enables O(1) operations at both ends |
+
+---
+
+## Real-World Use Case
+**Browser history navigation:** Every modern browser (Chrome, Firefox) maintains a doubly linked list of visited pages. The back button follows the `prev` pointer; the forward button follows the `next` pointer. This allows O(1) navigation in both directions without duplicating the history.
