@@ -1,0 +1,33 @@
+{
+  "id": "IB088",
+  "title": "Subarray with B Odd Numbers",
+  "step": "01",
+  "substep": "1.4",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "subarray-with-b-odd-numbers",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "hashing"
+  ]
+}

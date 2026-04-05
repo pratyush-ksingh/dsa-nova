@@ -1,0 +1,35 @@
+{
+  "id": "IB139",
+  "title": "Smallest Multiple With 0 and 1",
+  "step": "15",
+  "substep": "15.2",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "interviewbit": "smallest-multiple-with-0-and-1",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "graphs",
+    "bfs",
+    "dfs"
+  ]
+}

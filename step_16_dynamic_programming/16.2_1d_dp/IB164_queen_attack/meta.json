@@ -1,0 +1,33 @@
+{
+  "id": "IB164",
+  "title": "Queen Attack",
+  "step": "16",
+  "substep": "16.2",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "interviewbit": "queen-attack",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": false
+    },
+    "optimal": {
+      "java": true,
+      "python": false
+    },
+    "best": {
+      "java": true,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "dp"
+  ]
+}

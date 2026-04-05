@@ -1,0 +1,33 @@
+{
+  "id": "IB128",
+  "title": "Assign Mice to Holes",
+  "step": "12",
+  "substep": "12.2",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "interviewbit": "assign-mice-to-holes",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "greedy"
+  ]
+}

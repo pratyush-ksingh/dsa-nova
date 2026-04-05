@@ -1,0 +1,33 @@
+{
+  "id": "IB106",
+  "title": "Order of People Heights",
+  "step": "13",
+  "substep": "13.2",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "interviewbit": "order-of-people-heights",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "trees"
+  ]
+}

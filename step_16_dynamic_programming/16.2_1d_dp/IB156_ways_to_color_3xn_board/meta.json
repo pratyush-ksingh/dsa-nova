@@ -1,0 +1,33 @@
+{
+  "id": "IB156",
+  "title": "Ways to Color 3xN Board",
+  "step": "16",
+  "substep": "16.2",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "interviewbit": "ways-to-color-3xn-board",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "dp"
+  ]
+}

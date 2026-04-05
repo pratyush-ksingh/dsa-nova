@@ -1,0 +1,33 @@
+{
+  "id": "IB103",
+  "title": "Min Depth of Binary Tree",
+  "step": "13",
+  "substep": "13.2",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "interviewbit": "min-depth-of-binary-tree",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": false,
+      "python": false
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "trees"
+  ]
+}

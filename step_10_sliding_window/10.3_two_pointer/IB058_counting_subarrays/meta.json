@@ -1,0 +1,34 @@
+{
+  "id": "IB058",
+  "title": "Counting Subarrays",
+  "step": "10",
+  "substep": "10.3",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "counting-subarrays",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "two-pointers",
+    "sliding-window"
+  ]
+}

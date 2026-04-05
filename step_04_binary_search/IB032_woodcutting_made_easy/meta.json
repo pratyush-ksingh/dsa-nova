@@ -1,0 +1,35 @@
+{
+  "id": "IB032",
+  "title": "WoodCutting Made Easy",
+  "step": "04",
+  "substep": "04",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "woodcutting-made-easy",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "binary-search",
+    "interviewbit",
+    "greedy"
+  ]
+}

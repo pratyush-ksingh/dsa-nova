@@ -1,0 +1,33 @@
+{
+  "id": "IB116",
+  "title": "N Max Pair Combinations",
+  "step": "11",
+  "substep": "11.2",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "n-max-pair-combinations",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "heaps"
+  ]
+}

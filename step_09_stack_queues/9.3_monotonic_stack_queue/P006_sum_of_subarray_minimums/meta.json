@@ -1,0 +1,33 @@
+{
+  "id": "P006",
+  "title": "Sum of Subarray Minimums",
+  "step": "09",
+  "substep": "9.3",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": false,
+      "python": true
+    },
+    "optimal": {
+      "java": false,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "stack",
+    "monotonic-stack"
+  ]
+}

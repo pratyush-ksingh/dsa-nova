@@ -1,0 +1,32 @@
+{
+  "id": "P002",
+  "title": "Inserting a Node in LL",
+  "step": "06",
+  "substep": "6.1",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": false,
+      "python": false
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "linked-list"
+  ]
+}

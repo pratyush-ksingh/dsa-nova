@@ -1,0 +1,32 @@
+{
+  "id": "P002",
+  "title": "Bubble Sort",
+  "step": "02",
+  "substep": "2.1",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "sorting"
+  ]
+}

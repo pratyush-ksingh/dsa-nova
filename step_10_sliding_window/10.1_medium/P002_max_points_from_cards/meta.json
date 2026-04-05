@@ -1,0 +1,32 @@
+{
+  "id": "P002",
+  "title": "Max Points from Cards",
+  "step": "10",
+  "substep": "10.1",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "sliding-window"
+  ]
+}

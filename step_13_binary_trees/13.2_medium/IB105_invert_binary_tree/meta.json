@@ -1,0 +1,33 @@
+{
+  "id": "IB105",
+  "title": "Invert Binary Tree",
+  "step": "13",
+  "substep": "13.2",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "interviewbit": "invert-binary-tree",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": false,
+      "python": false
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "trees"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "IB009",
+  "title": "Maximum Consecutive Gap",
+  "step": "03",
+  "substep": "3.2",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "interviewbit": "maximum-consecutive-gap",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "arrays"
+  ]
+}

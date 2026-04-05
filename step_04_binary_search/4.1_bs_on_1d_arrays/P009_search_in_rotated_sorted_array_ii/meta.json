@@ -1,0 +1,33 @@
+{
+  "id": "P009",
+  "title": "Search in Rotated Sorted Array II",
+  "step": "04",
+  "substep": "4.1",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "binary-search",
+    "arrays"
+  ]
+}

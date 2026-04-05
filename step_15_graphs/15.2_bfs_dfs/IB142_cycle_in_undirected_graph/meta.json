@@ -1,0 +1,35 @@
+{
+  "id": "IB142",
+  "title": "Cycle in Undirected Graph",
+  "step": "15",
+  "substep": "15.2",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "cycle-in-undirected-graph",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "graphs",
+    "bfs",
+    "dfs"
+  ]
+}

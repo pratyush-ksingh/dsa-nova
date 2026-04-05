@@ -1,0 +1,32 @@
+{
+  "id": "P006",
+  "title": "Time to Burn Binary Tree",
+  "step": "13",
+  "substep": "13.3",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "trees"
+  ]
+}

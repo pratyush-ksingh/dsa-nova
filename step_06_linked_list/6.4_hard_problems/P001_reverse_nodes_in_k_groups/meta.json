@@ -1,0 +1,32 @@
+{
+  "id": "P001",
+  "title": "Reverse Nodes in K Groups",
+  "step": "06",
+  "substep": "6.4",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": false
+    },
+    "optimal": {
+      "java": true,
+      "python": false
+    },
+    "best": {
+      "java": true,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "linked-list"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "P002",
+  "title": "Min Heap Implementation",
+  "step": "11",
+  "substep": "11.1",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": false,
+      "python": false
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "heaps"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "IB112",
+  "title": "Inorder Traversal of Cartesian Tree",
+  "step": "13",
+  "substep": "13.2",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "inorder-traversal-of-cartesian-tree",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "trees"
+  ]
+}

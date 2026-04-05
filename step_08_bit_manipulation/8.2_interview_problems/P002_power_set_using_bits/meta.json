@@ -1,0 +1,32 @@
+{
+  "id": "P002",
+  "title": "Power Set using Bits",
+  "step": "08",
+  "substep": "8.2",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": false,
+      "python": true
+    },
+    "optimal": {
+      "java": false,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "bit-manipulation"
+  ]
+}

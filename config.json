@@ -1,0 +1,27 @@
+{
+  "xp_rules": {
+    "base_xp": { "EASY": 10, "MEDIUM": 25, "HARD": 50 },
+    "bonus_multipliers": {
+      "all_three_approaches": 1.5,
+      "both_languages": 1.3
+    },
+    "streak_bonus": {
+      "3": 5, "7": 15, "14": 30, "30": 100
+    }
+  },
+  "settings": {
+    "unlock_mode": "open",
+    "unlock_threshold_percent": 78
+  },
+  "fsrs": {
+    "target_retention": 0.90,
+    "weights": {
+      "w0": 0.3, "w1": 0.7, "w2": 2.0, "w3": 5.0,
+      "w4": 7.0, "w5": 0.5, "w6": 0.9, "w7": 0.05,
+      "w8": 1.49, "w9": 0.11, "w10": 0.5,
+      "w11": 2.0, "w12": 0.02, "w13": 0.34, "w14": 0.3,
+      "w15": 0.52, "w16": 2.0, "w17": 1.0
+    },
+    "expected_solve_times": { "EASY": 15, "MEDIUM": 30, "HARD": 45 }
+  }
+}

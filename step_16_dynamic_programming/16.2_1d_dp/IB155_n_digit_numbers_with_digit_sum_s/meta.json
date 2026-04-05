@@ -1,0 +1,33 @@
+{
+  "id": "IB155",
+  "title": "N Digit Numbers with Digit Sum S",
+  "step": "16",
+  "substep": "16.2",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "n-digit-numbers-with-digit-sum-s",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "dp"
+  ]
+}

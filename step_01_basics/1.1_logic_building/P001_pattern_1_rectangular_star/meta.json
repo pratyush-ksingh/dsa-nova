@@ -1,0 +1,33 @@
+{
+  "id": "P001",
+  "title": "Pattern 1 - Rectangular Star",
+  "step": "01",
+  "substep": "1.1",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": "2026-04-05",
+  "date_completed": "2026-04-05",
+  "tags": [
+    "math",
+    "logic"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P002",
+  "title": "Implement Queue using Arrays",
+  "step": "09",
+  "substep": "9.1",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "stack",
+    "queues"
+  ]
+}

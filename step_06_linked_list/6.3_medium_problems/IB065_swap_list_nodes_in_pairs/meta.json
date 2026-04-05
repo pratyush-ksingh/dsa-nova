@@ -1,0 +1,33 @@
+{
+  "id": "IB065",
+  "title": "Swap List Nodes in Pairs",
+  "step": "06",
+  "substep": "6.3",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "swap-list-nodes-in-pairs",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "linked-list"
+  ]
+}

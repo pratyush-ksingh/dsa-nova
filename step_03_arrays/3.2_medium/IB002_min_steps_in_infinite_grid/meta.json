@@ -1,0 +1,33 @@
+{
+  "id": "IB002",
+  "title": "Min Steps in Infinite Grid",
+  "step": "03",
+  "substep": "3.2",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "interviewbit": "min-steps-in-infinite-grid",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": false
+    }
+  },
+  "date_started": "2026-03-10",
+  "date_completed": "2026-03-10",
+  "tags": [
+    "arrays"
+  ]
+}

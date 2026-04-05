@@ -1,0 +1,33 @@
+{
+  "id": "P004",
+  "title": "Find Prime Factorization using Sieve",
+  "step": "08",
+  "substep": "8.3",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": false,
+      "python": true
+    },
+    "optimal": {
+      "java": false,
+      "python": true
+    },
+    "best": {
+      "java": false,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "math",
+    "bit-manipulation"
+  ]
+}

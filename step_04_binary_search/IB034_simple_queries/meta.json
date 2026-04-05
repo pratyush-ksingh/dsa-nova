@@ -1,0 +1,35 @@
+{
+  "id": "IB034",
+  "title": "Simple Queries",
+  "step": "04",
+  "substep": "04",
+  "difficulty": "HARD",
+  "xp_reward": 50,
+  "platforms": {
+    "interviewbit": "simple-queries",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "binary-search",
+    "interviewbit",
+    "number-theory"
+  ]
+}

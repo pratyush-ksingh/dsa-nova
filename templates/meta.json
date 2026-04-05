@@ -1,0 +1,21 @@
+{
+  "id": "{id}",
+  "title": "{title}",
+  "step": "{step}",
+  "substep": "{step}.{sub}",
+  "difficulty": "{difficulty}",
+  "xp_reward": 0,
+  "platforms": {
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "UNSOLVED",
+  "approaches_completed": {
+    "brute_force": { "java": false, "python": false },
+    "optimal": { "java": false, "python": false },
+    "best": { "java": false, "python": false }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": []
+}

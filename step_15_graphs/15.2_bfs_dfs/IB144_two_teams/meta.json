@@ -1,0 +1,35 @@
+{
+  "id": "IB144",
+  "title": "Two Teams",
+  "step": "15",
+  "substep": "15.2",
+  "difficulty": "MEDIUM",
+  "xp_reward": 25,
+  "platforms": {
+    "interviewbit": "two-teams",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": false
+    },
+    "optimal": {
+      "java": true,
+      "python": false
+    },
+    "best": {
+      "java": true,
+      "python": false
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "graphs",
+    "bfs",
+    "dfs"
+  ]
+}

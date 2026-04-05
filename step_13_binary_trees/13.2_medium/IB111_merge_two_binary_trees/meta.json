@@ -1,0 +1,33 @@
+{
+  "id": "IB111",
+  "title": "Merge Two Binary Trees",
+  "step": "13",
+  "substep": "13.2",
+  "difficulty": "EASY",
+  "xp_reward": 10,
+  "platforms": {
+    "interviewbit": "merge-two-binary-trees",
+    "leetcode": "",
+    "gfg": ""
+  },
+  "status": "SOLVED",
+  "approaches_completed": {
+    "brute_force": {
+      "java": true,
+      "python": true
+    },
+    "optimal": {
+      "java": true,
+      "python": true
+    },
+    "best": {
+      "java": true,
+      "python": true
+    }
+  },
+  "date_started": null,
+  "date_completed": null,
+  "tags": [
+    "trees"
+  ]
+}

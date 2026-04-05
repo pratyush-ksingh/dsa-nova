@@ -1,0 +1,187 @@
+{
+  "player": {
+    "name": "Nova Coder",
+    "level": 1,
+    "title": "Novice",
+    "total_xp": 0,
+    "current_streak": 0,
+    "longest_streak": 0,
+    "last_solved_date": null
+  },
+  "xp_thresholds": {
+    "1": 0,
+    "2": 100,
+    "3": 300,
+    "4": 600,
+    "5": 1000,
+    "6": 1600,
+    "7": 2400,
+    "8": 3500,
+    "9": 5000,
+    "10": 7000,
+    "11": 9500,
+    "12": 12500,
+    "13": 16000,
+    "14": 20000,
+    "15": 25000,
+    "16": 30000,
+    "17": 36000,
+    "18": 43000,
+    "19": 51000,
+    "20": 60000
+  },
+  "titles": {
+    "1": "Novice",
+    "5": "Apprentice",
+    "8": "Warrior",
+    "11": "Knight",
+    "14": "Master",
+    "17": "Grandmaster",
+    "20": "Legend"
+  },
+  "badges": [
+    {
+      "id": "first_blood",
+      "name": "First Blood",
+      "desc": "Solve your first problem",
+      "earned": false
+    },
+    {
+      "id": "array_slayer",
+      "name": "Array Slayer",
+      "desc": "Complete all array problems",
+      "earned": false
+    },
+    {
+      "id": "dp_demon",
+      "name": "DP Demon",
+      "desc": "Complete all DP problems",
+      "earned": false
+    },
+    {
+      "id": "graph_guru",
+      "name": "Graph Guru",
+      "desc": "Complete all graph problems",
+      "earned": false
+    },
+    {
+      "id": "streak_7",
+      "name": "On Fire",
+      "desc": "7-day solve streak",
+      "earned": false
+    },
+    {
+      "id": "streak_30",
+      "name": "Unstoppable",
+      "desc": "30-day solve streak",
+      "earned": false
+    },
+    {
+      "id": "polyglot",
+      "name": "Polyglot",
+      "desc": "Solve 50 problems in both languages",
+      "earned": false
+    },
+    {
+      "id": "triple_threat",
+      "name": "Triple Threat",
+      "desc": "All 3 approaches for 50 problems",
+      "earned": false
+    },
+    {
+      "id": "completionist",
+      "name": "A2Z Completionist",
+      "desc": "Solve every single problem",
+      "earned": false
+    }
+  ],
+  "steps_summary": {
+    "step_01": {
+      "total": 65,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_02": {
+      "total": 7,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_03": {
+      "total": 58,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_04": {
+      "total": 37,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_05": {
+      "total": 33,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_06": {
+      "total": 38,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_07": {
+      "total": 28,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_08": {
+      "total": 18,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_09": {
+      "total": 36,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_10": {
+      "total": 19,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_11": {
+      "total": 24,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_12": {
+      "total": 24,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_13": {
+      "total": 56,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_14": {
+      "total": 17,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_15": {
+      "total": 67,
+      "solved": 0,
+      "xp_earned": 0
+    },
+    "step_16": {
+      "total": 85,
+      "solved": 0,
+      "xp_earned": 0
+    }
+  },
+  "global_stats": {
+    "total_problems": 612,
+    "total_solved": 0,
+    "problems_with_all_approaches": 0,
+    "java_solutions": 0,
+    "python_solutions": 0
+  }
+}
